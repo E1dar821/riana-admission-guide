@@ -153,5 +153,46 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
   }
 }
+
+@utility glass {
+  background: color-mix(in oklab, var(--card) 65%, transparent);
+  backdrop-filter: blur(18px) saturate(140%);
+  border: 1px solid color-mix(in oklab, var(--primary) 10%, transparent);
+  box-shadow: var(--shadow-elegant);
+}
+
+@utility glass-dark {
+  background: color-mix(in oklab, oklch(1 0 0) 10%, transparent);
+  backdrop-filter: blur(18px) saturate(140%);
+  border: 1px solid color-mix(in oklab, oklch(1 0 0) 18%, transparent);
+}
+
+@utility text-gold {
+  color: var(--accent);
+}
+
+@utility bg-navy-gradient {
+  background-image: var(--gradient-navy);
+}
+
+@utility bg-gold-gradient {
+  background-image: var(--gradient-gold);
+}
+
