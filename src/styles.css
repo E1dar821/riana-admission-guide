@@ -196,3 +196,11 @@
   background-image: var(--gradient-gold);
 }
 
+
+@theme inline {
+  --color-navy-deep: var(--navy-deep);
+  --color-navy-soft: var(--navy-soft);
+  --color-gold-soft: var(--gold-soft);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+}
