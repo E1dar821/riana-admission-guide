@@ -1,16 +1,24 @@
-import { Feather, Mail, Phone, Instagram, Send, Linkedin } from "lucide-react";
-import { CONTACT } from "@/lib/photos";
+import { Mail, Phone, Instagram, Send, Linkedin } from "lucide-react";
+import { CONTACT, photos } from "@/lib/photos";
 
 export function Footer() {
   return (
     <footer className="bg-navy-gradient py-14 text-primary-foreground">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 md:grid-cols-3">
         <div className="min-w-0">
-          <div className="flex items-center gap-2">
-            <span className="grid size-9 shrink-0 place-items-center rounded-full bg-white/10 text-accent">
-              <Feather className="size-4" />
-            </span>
-            <span className="font-display text-lg font-semibold">Riana Admissions</span>
+          <div className="flex items-center gap-3">
+            <img
+              src={photos.hero}
+              alt="Риана — основатель Riana Admissions"
+              loading="lazy"
+              className="size-12 shrink-0 rounded-full object-cover ring-2 ring-accent/50"
+            />
+            <div className="min-w-0">
+              <span className="block font-display text-lg font-semibold">Riana Admissions</span>
+              <span className="block text-xs text-primary-foreground/65">
+                Риана — основатель и консультант
+              </span>
+            </div>
           </div>
           <p className="mt-4 max-w-xs text-sm text-primary-foreground/65">
             Консультации по поступлению в университеты Китая, США и Великобритании.

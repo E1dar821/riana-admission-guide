@@ -54,16 +54,21 @@ export function About() {
           <div className="relative mx-auto max-w-md lg:max-w-none">
             <img
               src={photos.aboutMain}
-              alt="Риана на набережной ночного города"
+              alt="Риана — основатель Riana Admissions, на набережной ночного города"
               loading="lazy"
               className="aspect-4/5 w-full rounded-[2rem] object-cover shadow-[var(--shadow-elegant)]"
             />
-            <img
-              src={photos.aboutSecondary}
-              alt="Риана в городской студийной среде"
-              loading="lazy"
-              className="glass absolute -bottom-8 -left-4 hidden w-40 rounded-2xl object-cover p-1.5 sm:block lg:-left-10 lg:w-52"
-            />
+            <div className="glass absolute -bottom-8 -left-4 hidden w-40 rounded-2xl p-1.5 sm:block lg:-left-10 lg:w-52">
+              <img
+                src={photos.aboutSecondary}
+                alt="Риана — основатель Riana Admissions"
+                loading="lazy"
+                className="w-full rounded-xl object-cover"
+              />
+              <p className="px-2 py-1.5 text-center text-[11px] font-medium text-primary">
+                Риана, основатель
+              </p>
+            </div>
           </div>
         </Reveal>
       </div>
