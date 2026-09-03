@@ -67,14 +67,16 @@ export function Hero() {
             <div className="glass-dark relative overflow-hidden rounded-[2rem] p-2">
               <img
                 src={photos.hero}
-                alt="Риана — консультант по поступлению в зарубежные университеты"
+                alt="Риана — основатель и консультант Riana Admissions"
                 loading="eager"
                 className="aspect-4/5 w-full rounded-[1.6rem] object-cover"
               />
             </div>
             <div className="glass absolute -bottom-6 left-4 rounded-2xl px-4 py-3 sm:left-8">
-              <p className="font-display text-sm font-semibold text-primary">Stanford · Cornell · UCL</p>
-              <p className="text-xs text-muted-foreground">офферы студентов Рианы</p>
+              <p className="font-display text-sm font-semibold text-primary">
+                Риана — основатель Riana Admissions
+              </p>
+              <p className="text-xs text-muted-foreground">Stanford · Cornell · UCL — офферы её студентов</p>
             </div>
           </div>
         </Reveal>

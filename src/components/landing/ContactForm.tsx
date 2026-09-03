@@ -25,12 +25,22 @@ export function ContactForm() {
     const email = values.email.trim();
     const contact = values.contact.trim();
 
-    if (name.length < 2 || name.length > 100) return toast.error("Укажите имя (2–100 символов)");
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || email.length > 255)
-      return toast.error("Укажите корректный e-mail");
-    if (contact.length < 3 || contact.length > 100)
-      return toast.error("Укажите телефон или Telegram");
-    if (values.goal.length > 1000) return toast.error("Сообщение слишком длинное");
+    if (name.length < 2 || name.length > 100) {
+      toast.error("Укажите имя (2–100 символов)");
+      return;
+    }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || email.length > 255) {
+      toast.error("Укажите корректный e-mail");
+      return;
+    }
+    if (contact.length < 3 || contact.length > 100) {
+      toast.error("Укажите телефон или Telegram");
+      return;
+    }
+    if (values.goal.length > 1000) {
+      toast.error("Сообщение слишком длинное");
+      return;
+    }
 
     setSending(true);
     const body = `Имя: ${name}\nE-mail: ${email}\nКонтакт: ${contact}\nЦель: ${values.goal.trim()}`;

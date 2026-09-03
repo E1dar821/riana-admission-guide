@@ -14,6 +14,16 @@ export const photos = {
   temple: temple.url,
 };
 
+/** Все фотографии — это Риана, основатель Riana Admissions. */
+export const rianaGallery = [
+  { src: portraitNight.url, caption: "Риана — основатель Riana Admissions" },
+  { src: cityNight.url, caption: "Риана в Шанхае — здесь начинается путь студентов" },
+  { src: rooftop.url, caption: "Риана на встрече со студентами" },
+  { src: street.url, caption: "Риана между консультациями" },
+  { src: mountains.url, caption: "Риана в поездке по Китаю" },
+  { src: temple.url, caption: "Риана: культура и жизнь в Китае изнутри" },
+];
+
 export const CONTACT = {
   telegram: "https://t.me/riana_admissions",
   whatsapp: "https://wa.me/8613800000000",

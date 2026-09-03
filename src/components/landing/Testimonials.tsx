@@ -1,24 +1,23 @@
 import { Quote } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
-import { photos } from "@/lib/photos";
 
 const items = [
   {
     name: "Алина К.",
     school: "Stanford University",
-    photo: photos.mountains,
+    initials: "АК",
     text: "Благодаря Риане я получила оффер из Стэнфорда. Её работа с эссе — это магия: текст стал моим, но в разы сильнее.",
   },
   {
     name: "Дамир С.",
     school: "Tsinghua University",
-    photo: photos.rooftop,
+    initials: "ДС",
     text: "Я не понимал, с чего начать. За два созвона появилась чёткая стратегия, а через полгода — полная стипендия.",
   },
   {
     name: "Мадина Т.",
     school: "UCL",
-    photo: photos.temple,
+    initials: "МТ",
     text: "Дедлайны, документы, рекомендации — всё было под контролем. Спокойствие во время подачи бесценно.",
   },
 ];
@@ -43,12 +42,9 @@ export function Testimonials() {
                   «{t.text}»
                 </blockquote>
                 <figcaption className="mt-6 flex min-w-0 items-center gap-3">
-                  <img
-                    src={t.photo}
-                    alt={t.name}
-                    loading="lazy"
-                    className="size-11 shrink-0 rounded-full object-cover"
-                  />
+                  <span className="grid size-11 shrink-0 place-items-center rounded-full bg-navy-gradient font-display text-sm font-semibold text-accent">
+                    {t.initials}
+                  </span>
                   <div className="min-w-0">
                     <p className="truncate text-sm font-semibold text-primary">{t.name}</p>
                     <p className="truncate text-xs text-muted-foreground">{t.school}</p>
