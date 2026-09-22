@@ -6,9 +6,11 @@
 // You can pass additional config via defineConfig({ vite: { ... }, etc... }) if needed.
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
+const base = process.env.GITHUB_ACTIONS === "true" ? "/riana-admission-guide/" : "/";
+
 export default defineConfig({
   vite: {
-    base: "/riana-admission-guide/",
+    base,
     server: {
       host: "0.0.0.0",
       port: 3000,

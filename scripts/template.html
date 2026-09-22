@@ -1,0 +1,3397 @@
+<!doctype html>
+<html lang="ru" data-tsd-source="/src/routes/__root.tsx:121:5">
+  <head data-tsd-source="/src/routes/__root.tsx:122:7">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/src/styles.css" data-precedence="default" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap"
+      data-precedence="default"
+    />
+    <link
+      rel="stylesheet"
+      href="/@tanstack-start/styles.css?routes=__root__%2C%2F"
+      data-tanstack-router-dev-styles="true"
+      data-precedence="default"
+    />
+    <title>
+      Riana Admissions — поступление в вузы Китая и благотворительный проект «Дадим шанс»
+    </title>
+    <meta name="author" content="Riana Admissions" />
+    <meta name="twitter:site" content="@Lovable" />
+    <meta
+      name="description"
+      content="Индивидуальное сопровождение поступления в университеты Китая и благотворительный проект «Дадим шанс» для талантливой молодёжи. Гранты, стипендии, менторство."
+    />
+    <meta
+      property="og:title"
+      content="Riana Admissions — поступление в вузы Китая и благотворительный проект «Дадим шанс»"
+    />
+    <meta
+      property="og:description"
+      content="Индивидуальное сопровождение поступления в университеты Китая и благотворительный проект «Дадим шанс» для талантливой молодёжи. Гранты, стипендии, менторство."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="keywords"
+      content="Riana Admissions, Дадим шанс, благотворительный проект, гранты в Китай, обучение в Китае, стипендии CSC, SCUT, поступление в вузы Китая"
+    />
+    <link rel="modulepreload" href="/@id/virtual:tanstack-start-dev-client-entry" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  </head>
+  <body data-tsd-source="/src/routes/__root.tsx:125:7">
+    <!--$-->
+    <div class="min-h-screen bg-background" data-tsd-source="/src/routes/index.tsx:39:5">
+      <header
+        class="fixed inset-x-0 top-0 z-50 transition-all duration-300 py-4"
+        data-tsd-source="/src/components/landing/Header.tsx:29:5"
+      >
+        <div
+          class="mx-auto grid max-w-7xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-4 sm:px-6 lg:grid-cols-[auto_1fr_auto]"
+          data-tsd-source="/src/components/landing/Header.tsx:35:7"
+        >
+          <a
+            href="#top"
+            class="flex min-w-0 items-center gap-2"
+            data-tsd-source="/src/components/landing/Header.tsx:36:9"
+            ><span
+              class="grid size-9 shrink-0 place-items-center rounded-full bg-navy-gradient text-accent"
+              data-tsd-source="/src/components/landing/Header.tsx:37:11"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-feather size-4"
+                aria-hidden="true"
+                data-tsd-source="/src/components/landing/Header.tsx:38:13"
+              >
+                <path
+                  d="M12.67 19a2 2 0 0 0 1.416-.588l6.154-6.172a6 6 0 0 0-8.49-8.49L5.586 9.914A2 2 0 0 0 5 11.328V18a1 1 0 0 0 1 1z"
+                ></path>
+                <path d="M16 8 2 22"></path>
+                <path d="M17.5 15H9"></path></svg></span
+            ><span
+              class="truncate font-display text-base font-semibold text-primary sm:text-lg"
+              data-tsd-source="/src/components/landing/Header.tsx:40:11"
+              >Riana Admissions</span
+            ></a
+          >
+          <nav
+            class="hidden items-center justify-center gap-7 lg:flex"
+            data-tsd-source="/src/components/landing/Header.tsx:45:9"
+          >
+            <a
+              href="#about"
+              class="story-link text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+              data-tsd-source="/src/components/landing/Header.tsx:47:13"
+              >Обо мне</a
+            ><a
+              href="#charity"
+              class="story-link text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+              data-tsd-source="/src/components/landing/Header.tsx:47:13"
+              >«Дадим шанс»</a
+            ><a
+              href="#services"
+              class="story-link text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+              data-tsd-source="/src/components/landing/Header.tsx:47:13"
+              >Услуги</a
+            ><a
+              href="#results"
+              class="story-link text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+              data-tsd-source="/src/components/landing/Header.tsx:47:13"
+              >Результаты</a
+            ><a
+              href="#testimonials"
+              class="story-link text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+              data-tsd-source="/src/components/landing/Header.tsx:47:13"
+              >Отзывы</a
+            ><a
+              href="#faq"
+              class="story-link text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+              data-tsd-source="/src/components/landing/Header.tsx:47:13"
+              >FAQ</a
+            >
+          </nav>
+          <div
+            class="flex items-center gap-2"
+            data-tsd-source="/src/components/landing/Header.tsx:57:9"
+          >
+            <a
+              href="https://chat.whatsapp.com/JlCTPrnJOKv8V3lQTFGY5E"
+              target="_blank"
+              rel="noreferrer"
+              data-tsd-source="/src/components/landing/Header.tsx:59:13"
+              class="items-center justify-center gap-2 whitespace-nowrap font-medium cursor-pointer focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-primary/25 bg-transparent text-primary transition-all hover:bg-primary hover:text-primary-foreground h-11 rounded-full px-6 text-sm hidden xl:inline-flex"
+              >Чат в WhatsApp</a
+            ><a
+              href="https://www.instagram.com/riana.china?stkn=MTR5NzMxM293eHBkcg=="
+              target="_blank"
+              rel="noreferrer"
+              data-tsd-source="/src/components/landing/Header.tsx:64:13"
+              class="items-center justify-center gap-2 whitespace-nowrap cursor-pointer focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-gold-gradient text-accent-foreground font-semibold shadow-[var(--shadow-gold)] transition-all hover:brightness-105 hover:-translate-y-0.5 h-11 rounded-full px-6 text-sm hidden sm:inline-flex"
+              >Instagram @riana.china</a
+            ><button
+              aria-label="Меню"
+              class="grid size-10 place-items-center rounded-full border border-border bg-card text-primary lg:hidden"
+              data-tsd-source="/src/components/landing/Header.tsx:68:11"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-menu size-5"
+                aria-hidden="true"
+                data-tsd-source="/src/components/landing/Header.tsx:73:48"
+              >
+                <path d="M4 5h16"></path>
+                <path d="M4 12h16"></path>
+                <path d="M4 19h16"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </header>
+      <main data-tsd-source="/src/routes/index.tsx:41:7">
+        <section
+          id="top"
+          class="relative overflow-hidden bg-navy-gradient pt-28 pb-20 sm:pt-36"
+          data-tsd-source="/src/components/landing/Hero.tsx:22:5"
+        >
+          <div
+            aria-hidden="true"
+            class="pointer-events-none absolute -top-24 -right-24 size-96 rounded-full bg-gold-gradient opacity-25 blur-3xl"
+            data-tsd-source="/src/components/landing/Hero.tsx:23:7"
+          ></div>
+          <div
+            aria-hidden="true"
+            class="pointer-events-none absolute -bottom-32 -left-20 size-96 rounded-full bg-white/10 blur-3xl"
+            data-tsd-source="/src/components/landing/Hero.tsx:27:7"
+          ></div>
+          <div
+            class="relative mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2"
+            data-tsd-source="/src/components/landing/Hero.tsx:32:7"
+          >
+            <div
+              style="transition-delay: 0ms"
+              class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0 min-w-0"
+              data-tsd-source="/src/components/Reveal.tsx:33:5"
+            >
+              <div
+                class="flex flex-wrap items-center gap-2"
+                data-tsd-source="/src/components/landing/Hero.tsx:34:11"
+              >
+                <span
+                  class="inline-flex items-center rounded-full border border-white/25 bg-white/10 px-4 py-1.5 text-xs font-medium tracking-wide text-primary-foreground/90 uppercase"
+                  data-tsd-source="/src/components/landing/Hero.tsx:35:13"
+                  >Admissions mentor · Китай</span
+                ><a
+                  href="#charity"
+                  class="inline-flex items-center gap-1.5 rounded-full border border-accent/40 bg-accent/20 px-3.5 py-1.5 text-xs font-semibold tracking-wide text-accent transition-colors hover:bg-accent/30"
+                  data-tsd-source="/src/components/landing/Hero.tsx:38:13"
+                  >Проект «Дадим шанс»</a
+                >
+              </div>
+              <h1
+                class="mt-6 font-display text-4xl leading-[1.1] font-semibold text-primary-foreground sm:text-5xl lg:text-6xl"
+                data-tsd-source="/src/components/landing/Hero.tsx:45:11"
+              >
+                Поступление в топовые вузы Китая<br
+                  class="hidden sm:block"
+                  data-tsd-source="/src/components/landing/Hero.tsx:47:13"
+                />
+                с
+                <span class="text-gold" data-tsd-source="/src/components/landing/Hero.tsx:47:50"
+                  >Riana Admissions</span
+                >.<br
+                  class="hidden sm:block"
+                  data-tsd-source="/src/components/landing/Hero.tsx:49:13"
+                />
+                Ваш гид к успеху.
+              </h1>
+              <p
+                class="mt-6 max-w-xl text-base leading-relaxed text-primary-foreground/75 sm:text-lg"
+                data-tsd-source="/src/components/landing/Hero.tsx:51:11"
+              >
+                Индивидуальное сопровождение, грантовая стратегия и подготовка документов. Откройте
+                двери к образованию вашей мечты и стипендиям в Китае.
+              </p>
+              <div
+                class="mt-8 flex flex-col gap-3 sm:flex-row"
+                data-tsd-source="/src/components/landing/Hero.tsx:56:11"
+              >
+                <a
+                  href="#contact"
+                  data-tsd-source="/src/components/landing/Hero.tsx:58:15"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap cursor-pointer focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-gold-gradient text-accent-foreground font-semibold shadow-[var(--shadow-gold)] transition-all hover:brightness-105 hover:-translate-y-0.5 h-13 rounded-full px-8 text-base"
+                  >Оставить заявку</a
+                ><a
+                  href="#charity"
+                  data-tsd-source="/src/components/landing/Hero.tsx:61:15"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium cursor-pointer focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-white/40 bg-transparent text-primary-foreground transition-all hover:bg-white/15 h-13 rounded-full px-8 text-base"
+                  >Проект «Дадим шанс»</a
+                >
+              </div>
+              <dl
+                class="mt-12 grid grid-cols-3 gap-3 sm:max-w-lg"
+                data-tsd-source="/src/components/landing/Hero.tsx:65:11"
+              >
+                <div
+                  class="glass-dark rounded-2xl px-3 py-4 text-center sm:px-4"
+                  data-tsd-source="/src/components/landing/Hero.tsx:67:15"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-users mx-auto size-5 text-accent"
+                    aria-hidden="true"
+                    data-tsd-source="/src/components/landing/Hero.tsx:68:17"
+                  >
+                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                    <path d="M16 3.128a4 4 0 0 1 0 7.744"></path>
+                    <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                  </svg>
+                  <dt
+                    class="mt-2 font-display text-lg font-semibold text-primary-foreground sm:text-xl"
+                    data-tsd-source="/src/components/landing/Hero.tsx:69:17"
+                  >
+                    35+
+                  </dt>
+                  <dd
+                    class="text-xs text-primary-foreground/70"
+                    data-tsd-source="/src/components/landing/Hero.tsx:72:17"
+                  >
+                    студентов отправлено
+                  </dd>
+                </div>
+                <div
+                  class="glass-dark rounded-2xl px-3 py-4 text-center sm:px-4"
+                  data-tsd-source="/src/components/landing/Hero.tsx:67:15"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-award mx-auto size-5 text-accent"
+                    aria-hidden="true"
+                    data-tsd-source="/src/components/landing/Hero.tsx:68:17"
+                  >
+                    <path
+                      d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"
+                    ></path>
+                    <circle cx="12" cy="8" r="6"></circle>
+                  </svg>
+                  <dt
+                    class="mt-2 font-display text-lg font-semibold text-primary-foreground sm:text-xl"
+                    data-tsd-source="/src/components/landing/Hero.tsx:69:17"
+                  >
+                    15+
+                  </dt>
+                  <dd
+                    class="text-xs text-primary-foreground/70"
+                    data-tsd-source="/src/components/landing/Hero.tsx:72:17"
+                  >
+                    с грантами
+                  </dd>
+                </div>
+                <div
+                  class="glass-dark rounded-2xl px-3 py-4 text-center sm:px-4"
+                  data-tsd-source="/src/components/landing/Hero.tsx:67:15"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-clock mx-auto size-5 text-accent"
+                    aria-hidden="true"
+                    data-tsd-source="/src/components/landing/Hero.tsx:68:17"
+                  >
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M12 6v6l4 2"></path>
+                  </svg>
+                  <dt
+                    class="mt-2 font-display text-lg font-semibold text-primary-foreground sm:text-xl"
+                    data-tsd-source="/src/components/landing/Hero.tsx:69:17"
+                  >
+                    1+ год
+                  </dt>
+                  <dd
+                    class="text-xs text-primary-foreground/70"
+                    data-tsd-source="/src/components/landing/Hero.tsx:72:17"
+                  >
+                    опыта
+                  </dd>
+                </div>
+              </dl>
+            </div>
+            <div
+              style="transition-delay: 150ms"
+              class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0 min-w-0"
+              data-tsd-source="/src/components/Reveal.tsx:33:5"
+            >
+              <div
+                class="relative mx-auto max-w-lg lg:max-w-none"
+                data-tsd-source="/src/components/landing/Hero.tsx:79:11"
+              >
+                <div
+                  aria-hidden="true"
+                  class="absolute -inset-3 rounded-[2.5rem] bg-gold-gradient opacity-20 blur-2xl"
+                  data-tsd-source="/src/components/landing/Hero.tsx:80:13"
+                ></div>
+                <div
+                  class="glass-dark relative overflow-hidden rounded-[2rem] border border-white/20 p-6 sm:p-8"
+                  data-tsd-source="/src/components/landing/Hero.tsx:84:13"
+                >
+                  <div
+                    class="flex items-center justify-between border-b border-white/10 pb-5"
+                    data-tsd-source="/src/components/landing/Hero.tsx:85:15"
+                  >
+                    <div data-tsd-source="/src/components/landing/Hero.tsx:86:17">
+                      <span
+                        class="text-[11px] font-semibold tracking-wider text-accent uppercase"
+                        data-tsd-source="/src/components/landing/Hero.tsx:87:19"
+                        >Набор 2026 / 2027</span
+                      >
+                      <h3
+                        class="mt-1 font-display text-xl font-semibold text-primary-foreground sm:text-2xl"
+                        data-tsd-source="/src/components/landing/Hero.tsx:90:19"
+                      >
+                        Университеты Китая
+                      </h3>
+                    </div>
+                    <span
+                      class="rounded-full border border-accent/40 bg-accent/15 px-3 py-1 text-xs font-medium text-accent"
+                      data-tsd-source="/src/components/landing/Hero.tsx:94:17"
+                      >Project 985 / 211</span
+                    >
+                  </div>
+                  <div
+                    class="mt-6 space-y-3.5"
+                    data-tsd-source="/src/components/landing/Hero.tsx:99:15"
+                  >
+                    <div
+                      class="rounded-2xl border border-white/10 bg-white/5 p-4 transition-colors hover:bg-white/10"
+                      data-tsd-source="/src/components/landing/Hero.tsx:100:17"
+                    >
+                      <div
+                        class="flex items-start gap-3"
+                        data-tsd-source="/src/components/landing/Hero.tsx:101:19"
+                      >
+                        <div
+                          class="grid size-9 shrink-0 place-items-center rounded-xl bg-gold-gradient text-accent-foreground"
+                          data-tsd-source="/src/components/landing/Hero.tsx:102:21"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-graduation-cap size-4"
+                            aria-hidden="true"
+                            data-tsd-source="/src/components/landing/Hero.tsx:103:23"
+                          >
+                            <path
+                              d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"
+                            ></path>
+                            <path d="M22 10v6"></path>
+                            <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                          </svg>
+                        </div>
+                        <div data-tsd-source="/src/components/landing/Hero.tsx:105:21">
+                          <p
+                            class="text-sm font-semibold text-primary-foreground"
+                            data-tsd-source="/src/components/landing/Hero.tsx:106:23"
+                          >
+                            Топовые вузы: SCUT и национальные университеты
+                          </p>
+                          <p
+                            class="mt-0.5 text-xs text-primary-foreground/70"
+                            data-tsd-source="/src/components/landing/Hero.tsx:109:23"
+                          >
+                            South China University of Technology, престижные программы бакалавриата
+                            и магистратуры
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="rounded-2xl border border-white/10 bg-white/5 p-4 transition-colors hover:bg-white/10"
+                      data-tsd-source="/src/components/landing/Hero.tsx:117:17"
+                    >
+                      <div
+                        class="flex items-start gap-3"
+                        data-tsd-source="/src/components/landing/Hero.tsx:118:19"
+                      >
+                        <div
+                          class="grid size-9 shrink-0 place-items-center rounded-xl bg-navy-gradient text-accent"
+                          data-tsd-source="/src/components/landing/Hero.tsx:119:21"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-award size-4"
+                            aria-hidden="true"
+                            data-tsd-source="/src/components/landing/Hero.tsx:120:23"
+                          >
+                            <path
+                              d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"
+                            ></path>
+                            <circle cx="12" cy="8" r="6"></circle>
+                          </svg>
+                        </div>
+                        <div data-tsd-source="/src/components/landing/Hero.tsx:122:21">
+                          <p
+                            class="text-sm font-semibold text-primary-foreground"
+                            data-tsd-source="/src/components/landing/Hero.tsx:123:23"
+                          >
+                            Грантовые стипендии (CSC и провинции)
+                          </p>
+                          <p
+                            class="mt-0.5 text-xs text-primary-foreground/70"
+                            data-tsd-source="/src/components/landing/Hero.tsx:126:23"
+                          >
+                            15+ студентов уже получили стипендии с бесплатным обучением, проживанием
+                            и выплатами
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="rounded-2xl border border-white/10 bg-white/5 p-4 transition-colors hover:bg-white/10"
+                      data-tsd-source="/src/components/landing/Hero.tsx:134:17"
+                    >
+                      <div
+                        class="flex items-start gap-3"
+                        data-tsd-source="/src/components/landing/Hero.tsx:135:19"
+                      >
+                        <div
+                          class="grid size-9 shrink-0 place-items-center rounded-xl bg-accent/20 text-accent"
+                          data-tsd-source="/src/components/landing/Hero.tsx:136:21"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-circle-check size-4"
+                            aria-hidden="true"
+                            data-tsd-source="/src/components/landing/Hero.tsx:137:23"
+                          >
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="m9 12 2 2 4-4"></path>
+                          </svg>
+                        </div>
+                        <div data-tsd-source="/src/components/landing/Hero.tsx:139:21">
+                          <p
+                            class="text-sm font-semibold text-primary-foreground"
+                            data-tsd-source="/src/components/landing/Hero.tsx:140:23"
+                          >
+                            Полная подготовка документов
+                          </p>
+                          <p
+                            class="mt-0.5 text-xs text-primary-foreground/70"
+                            data-tsd-source="/src/components/landing/Hero.tsx:143:23"
+                          >
+                            Study Plan, эссе, визовая поддержка JW201/JW202 и встреча по прибытии
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="mt-6 flex flex-col gap-2.5 pt-4 border-t border-white/10 sm:flex-row"
+                    data-tsd-source="/src/components/landing/Hero.tsx:151:15"
+                  >
+                    <a
+                      href="https://www.instagram.com/riana.china?stkn=MTR5NzMxM293eHBkcg=="
+                      target="_blank"
+                      rel="noreferrer"
+                      class="flex flex-1 items-center justify-center gap-2 rounded-xl bg-gold-gradient px-4 py-2.5 text-xs font-semibold text-accent-foreground transition-all hover:opacity-95"
+                      data-tsd-source="/src/components/landing/Hero.tsx:152:17"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-instagram size-4"
+                        aria-hidden="true"
+                        data-tsd-source="/src/components/landing/Hero.tsx:158:19"
+                      >
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg
+                      ><span data-tsd-source="/src/components/landing/Hero.tsx:159:19"
+                        >Instagram
+                        <!-- -->@riana.china</span
+                      ></a
+                    ><a
+                      href="https://chat.whatsapp.com/JlCTPrnJOKv8V3lQTFGY5E"
+                      target="_blank"
+                      rel="noreferrer"
+                      class="flex flex-1 items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/10 px-4 py-2.5 text-xs font-semibold text-primary-foreground transition-all hover:bg-white/20"
+                      data-tsd-source="/src/components/landing/Hero.tsx:161:17"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-message-circle size-4 text-accent"
+                        aria-hidden="true"
+                        data-tsd-source="/src/components/landing/Hero.tsx:167:19"
+                      >
+                        <path
+                          d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"
+                        ></path></svg
+                      ><span data-tsd-source="/src/components/landing/Hero.tsx:168:19"
+                        >Чат в WhatsApp</span
+                      ></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          id="about"
+          class="relative py-24"
+          data-tsd-source="/src/components/landing/About.tsx:14:5"
+        >
+          <div
+            class="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:items-center"
+            data-tsd-source="/src/components/landing/About.tsx:15:7"
+          >
+            <div
+              style="transition-delay: 0ms"
+              class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0 order-2 min-w-0 lg:order-1"
+              data-tsd-source="/src/components/Reveal.tsx:33:5"
+            >
+              <p
+                class="text-xs font-semibold tracking-[0.2em] text-accent uppercase"
+                data-tsd-source="/src/components/landing/About.tsx:17:11"
+              >
+                Обо мне
+              </p>
+              <h2
+                class="mt-4 font-display text-3xl font-semibold text-primary sm:text-4xl"
+                data-tsd-source="/src/components/landing/About.tsx:18:11"
+              >
+                Риана: ваш персональный проводник в университеты Китая
+              </h2>
+              <p
+                class="mt-6 leading-relaxed text-muted-foreground"
+                data-tsd-source="/src/components/landing/About.tsx:21:11"
+              >
+                Больше года я профессионально помогаю студентам поступать в ведущие университеты
+                Китая. За это время уже более 35 студентов успешно отправились на учёбу в Китай, из
+                которых 15+ ребят получили гранты и стипендии, включая оффер в Южно-Китайский
+                технологический университет (SCUT) — один из топовых вузов страны.
+              </p>
+              <p
+                class="mt-4 leading-relaxed text-muted-foreground"
+                data-tsd-source="/src/components/landing/About.tsx:27:11"
+              >
+                Я работаю точечно и лично: разбираю профиль, выстраиваю стратегию подачи, довожу
+                каждый Study Plan и рекомендательные письма до идеала, чтобы вы гарантированно
+                выделились среди кандидатов.
+              </p>
+              <ul class="mt-8 space-y-3" data-tsd-source="/src/components/landing/About.tsx:33:11">
+                <li
+                  class="flex items-start gap-3"
+                  data-tsd-source="/src/components/landing/About.tsx:35:15"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-circle-check mt-0.5 size-5 shrink-0 text-accent"
+                    aria-hidden="true"
+                    data-tsd-source="/src/components/landing/About.tsx:36:17"
+                  >
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="m9 12 2 2 4-4"></path></svg
+                  ><span
+                    class="text-sm text-foreground"
+                    data-tsd-source="/src/components/landing/About.tsx:37:17"
+                    >Эксперт по китайским государственным грантам (CSC, гранты мэра и
+                    провинций)</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3"
+                  data-tsd-source="/src/components/landing/About.tsx:35:15"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-circle-check mt-0.5 size-5 shrink-0 text-accent"
+                    aria-hidden="true"
+                    data-tsd-source="/src/components/landing/About.tsx:36:17"
+                  >
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="m9 12 2 2 4-4"></path></svg
+                  ><span
+                    class="text-sm text-foreground"
+                    data-tsd-source="/src/components/landing/About.tsx:37:17"
+                    >Персональная стратегия под профиль каждого студента</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3"
+                  data-tsd-source="/src/components/landing/About.tsx:35:15"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-circle-check mt-0.5 size-5 shrink-0 text-accent"
+                    aria-hidden="true"
+                    data-tsd-source="/src/components/landing/About.tsx:36:17"
+                  >
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="m9 12 2 2 4-4"></path></svg
+                  ><span
+                    class="text-sm text-foreground"
+                    data-tsd-source="/src/components/landing/About.tsx:37:17"
+                    >Основатель благотворительного проекта «Дадим шанс» для талантливой
+                    молодёжи</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3"
+                  data-tsd-source="/src/components/landing/About.tsx:35:15"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-circle-check mt-0.5 size-5 shrink-0 text-accent"
+                    aria-hidden="true"
+                    data-tsd-source="/src/components/landing/About.tsx:36:17"
+                  >
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="m9 12 2 2 4-4"></path></svg
+                  ><span
+                    class="text-sm text-foreground"
+                    data-tsd-source="/src/components/landing/About.tsx:37:17"
+                    >Эссе, CV и Study Plan, которые выделяют вас среди тысяч кандидатов</span
+                  >
+                </li>
+              </ul>
+              <div
+                class="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center"
+                data-tsd-source="/src/components/landing/About.tsx:42:11"
+              >
+                <a
+                  href="https://www.instagram.com/riana.china?stkn=MTR5NzMxM293eHBkcg=="
+                  target="_blank"
+                  rel="noreferrer"
+                  class="group inline-flex items-center gap-3 rounded-full border border-accent/40 bg-accent/10 py-2 pr-6 pl-2.5 transition-all hover:-translate-y-0.5 hover:border-accent hover:shadow-[var(--shadow-gold)]"
+                  data-tsd-source="/src/components/landing/About.tsx:43:13"
+                  ><span
+                    class="grid size-10 place-items-center rounded-full bg-gold-gradient text-accent-foreground transition-transform group-hover:scale-105"
+                    data-tsd-source="/src/components/landing/About.tsx:49:15"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-instagram size-5"
+                      aria-hidden="true"
+                      data-tsd-source="/src/components/landing/About.tsx:50:17"
+                    >
+                      <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg
+                  ></span>
+                  <div class="text-left" data-tsd-source="/src/components/landing/About.tsx:52:15">
+                    <span
+                      class="block text-[11px] font-semibold text-accent uppercase"
+                      data-tsd-source="/src/components/landing/About.tsx:53:17"
+                      >Основной ресурс и связь</span
+                    ><span
+                      class="block text-sm font-semibold text-primary"
+                      data-tsd-source="/src/components/landing/About.tsx:56:17"
+                      >Instagram
+                      <!-- -->@riana.china</span
+                    >
+                  </div></a
+                ><a
+                  href="https://chat.whatsapp.com/JlCTPrnJOKv8V3lQTFGY5E"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="group inline-flex items-center gap-3 rounded-full border border-primary/15 bg-card py-2 pr-6 pl-2.5 transition-all hover:-translate-y-0.5 hover:shadow-[var(--shadow-elegant)]"
+                  data-tsd-source="/src/components/landing/About.tsx:62:13"
+                  ><span
+                    class="grid size-10 place-items-center rounded-full bg-navy-gradient text-accent transition-transform group-hover:scale-105"
+                    data-tsd-source="/src/components/landing/About.tsx:68:15"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-message-circle size-5"
+                      aria-hidden="true"
+                      data-tsd-source="/src/components/landing/About.tsx:69:17"
+                    >
+                      <path
+                        d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"
+                      ></path></svg
+                  ></span>
+                  <div class="text-left" data-tsd-source="/src/components/landing/About.tsx:71:15">
+                    <span
+                      class="block text-[11px] text-muted-foreground"
+                      data-tsd-source="/src/components/landing/About.tsx:72:17"
+                      >Групповой чат</span
+                    ><span
+                      class="block text-sm font-semibold text-primary"
+                      data-tsd-source="/src/components/landing/About.tsx:73:17"
+                      >Чат в WhatsApp</span
+                    >
+                  </div></a
+                >
+              </div>
+            </div>
+            <div
+              style="transition-delay: 120ms"
+              class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0 order-1 min-w-0 lg:order-2"
+              data-tsd-source="/src/components/Reveal.tsx:33:5"
+            >
+              <div
+                class="relative mx-auto max-w-md lg:max-w-none"
+                data-tsd-source="/src/components/landing/About.tsx:80:11"
+              >
+                <img
+                  src="/__l5e/assets-v1/10947853-b066-421d-9dce-eddeea1ea7b5/IMG_20260902_190713_102.jpg"
+                  alt="Обучение и жизнь в Китае"
+                  loading="lazy"
+                  class="aspect-4/5 w-full rounded-[2rem] object-cover shadow-[var(--shadow-elegant)]"
+                  data-tsd-source="/src/components/landing/About.tsx:81:13"
+                />
+                <div
+                  class="glass absolute -bottom-6 -left-4 hidden rounded-2xl px-4 py-3 sm:block lg:-left-6 shadow-[var(--shadow-elegant)]"
+                  data-tsd-source="/src/components/landing/About.tsx:87:13"
+                >
+                  <div
+                    class="flex items-center gap-3"
+                    data-tsd-source="/src/components/landing/About.tsx:88:15"
+                  >
+                    <div
+                      class="grid size-9 place-items-center rounded-xl bg-gold-gradient text-accent-foreground font-semibold text-xs"
+                      data-tsd-source="/src/components/landing/About.tsx:89:17"
+                    >
+                      SCUT
+                    </div>
+                    <div data-tsd-source="/src/components/landing/About.tsx:92:17">
+                      <p
+                        class="text-xs font-semibold text-primary"
+                        data-tsd-source="/src/components/landing/About.tsx:93:19"
+                      >
+                        Поступление в вузы Китая
+                      </p>
+                      <p
+                        class="text-[11px] text-muted-foreground"
+                        data-tsd-source="/src/components/landing/About.tsx:94:19"
+                      >
+                        15+ грантов · 35+ студентов
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          id="charity"
+          class="relative overflow-hidden py-24"
+          data-tsd-source="/src/components/landing/Charity.tsx:72:5"
+        >
+          <div
+            aria-hidden="true"
+            class="pointer-events-none absolute top-10 right-0 size-96 rounded-full bg-gold-gradient opacity-15 blur-3xl"
+            data-tsd-source="/src/components/landing/Charity.tsx:74:7"
+          ></div>
+          <div
+            aria-hidden="true"
+            class="pointer-events-none absolute bottom-10 left-0 size-96 rounded-full bg-navy-deep/10 blur-3xl"
+            data-tsd-source="/src/components/landing/Charity.tsx:78:7"
+          ></div>
+          <div
+            class="relative mx-auto max-w-7xl px-4 sm:px-6"
+            data-tsd-source="/src/components/landing/Charity.tsx:83:7"
+          >
+            <div
+              style="transition-delay: 0ms"
+              class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0 mx-auto max-w-3xl text-center"
+              data-tsd-source="/src/components/Reveal.tsx:33:5"
+            >
+              <div
+                class="inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-4 py-1.5 text-xs font-semibold tracking-wide text-accent-foreground uppercase"
+                data-tsd-source="/src/components/landing/Charity.tsx:86:11"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-heart-handshake size-4 text-accent"
+                  aria-hidden="true"
+                  data-tsd-source="/src/components/landing/Charity.tsx:87:13"
+                >
+                  <path
+                    d="M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762"
+                  ></path></svg
+                >Социальная инициатива Рианы
+              </div>
+              <h2
+                class="mt-4 font-display text-3xl font-semibold text-primary sm:text-4xl lg:text-5xl"
+                data-tsd-source="/src/components/landing/Charity.tsx:90:11"
+              >
+                Благотворительный проект
+                <span class="text-gold" data-tsd-source="/src/components/landing/Charity.tsx:91:38"
+                  >«Дадим шанс»</span
+                >
+              </h2>
+              <p
+                class="mt-5 text-base leading-relaxed text-muted-foreground sm:text-lg"
+                data-tsd-source="/src/components/landing/Charity.tsx:93:11"
+              >
+                Качественное образование должно быть доступно каждому таланту. Проект «Дадим шанс»
+                помогает одарённым студентам из малообеспеченных семей и ребятам в сложных жизненных
+                условиях бесплатно поступить в ведущие университеты Китая на полный грант.
+              </p>
+            </div>
+            <div
+              style="transition-delay: 100ms"
+              class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0 mt-14"
+              data-tsd-source="/src/components/Reveal.tsx:33:5"
+            >
+              <div
+                class="glass rounded-[2rem] p-6 sm:p-10 lg:p-12"
+                data-tsd-source="/src/components/landing/Charity.tsx:102:11"
+              >
+                <div
+                  class="grid gap-8 lg:grid-cols-[auto_1fr] lg:items-center"
+                  data-tsd-source="/src/components/landing/Charity.tsx:103:13"
+                >
+                  <div
+                    class="relative mx-auto size-32 shrink-0 sm:size-40"
+                    data-tsd-source="/src/components/landing/Charity.tsx:104:15"
+                  >
+                    <img
+                      src="/__l5e/assets-v1/2ea8df2f-d400-4533-895b-fa6e5df9e336/IMG_20260902_190720_050.jpg"
+                      alt="Риана — основатель благотворительного проекта «Дадим шанс»"
+                      loading="lazy"
+                      class="size-full rounded-2xl object-cover shadow-[var(--shadow-elegant)]"
+                      data-tsd-source="/src/components/landing/Charity.tsx:105:17"
+                    /><span
+                      class="absolute -right-2 -bottom-2 grid size-9 place-items-center rounded-full bg-navy-gradient text-accent shadow-md"
+                      data-tsd-source="/src/components/landing/Charity.tsx:111:17"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-sparkles size-4"
+                        aria-hidden="true"
+                        data-tsd-source="/src/components/landing/Charity.tsx:112:19"
+                      >
+                        <path
+                          d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"
+                        ></path>
+                        <path d="M20 2v4"></path>
+                        <path d="M22 4h-4"></path>
+                        <circle cx="4" cy="20" r="2"></circle></svg
+                    ></span>
+                  </div>
+                  <div
+                    class="min-w-0 text-center lg:text-left"
+                    data-tsd-source="/src/components/landing/Charity.tsx:115:15"
+                  >
+                    <blockquote
+                      class="font-display text-lg font-medium text-primary sm:text-xl sm:leading-relaxed"
+                      data-tsd-source="/src/components/landing/Charity.tsx:116:17"
+                    >
+                      «Образование меняет судьбы целых семей. Работая со студентами, я вижу ребят с
+                      горящими глазами, которые опускают руки просто потому, что не имеют средств на
+                      дорогие агентства. Проект «Дадим шанс» — это моё обязательство: если у вас
+                      есть талант и трудолюбие, мы найдём способ открыть для вас двери лучших
+                      университетов Китая.»
+                    </blockquote>
+                    <div
+                      class="mt-4 flex flex-wrap items-center justify-center gap-3 lg:justify-start"
+                      data-tsd-source="/src/components/landing/Charity.tsx:123:17"
+                    >
+                      <span
+                        class="font-display text-sm font-semibold text-primary"
+                        data-tsd-source="/src/components/landing/Charity.tsx:124:19"
+                        >Риана</span
+                      ><span
+                        class="size-1 rounded-full bg-accent"
+                        data-tsd-source="/src/components/landing/Charity.tsx:125:19"
+                      ></span
+                      ><span
+                        class="text-xs text-muted-foreground"
+                        data-tsd-source="/src/components/landing/Charity.tsx:126:19"
+                        >Основатель Riana Admissions &amp; проекта «Дадим шанс»</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-16" data-tsd-source="/src/components/landing/Charity.tsx:136:9">
+              <div
+                style="transition-delay: 0ms"
+                class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0 text-center"
+                data-tsd-source="/src/components/Reveal.tsx:33:5"
+              >
+                <p
+                  class="text-xs font-semibold tracking-[0.2em] text-accent uppercase"
+                  data-tsd-source="/src/components/landing/Charity.tsx:138:13"
+                >
+                  Направления поддержки
+                </p>
+                <h3
+                  class="mt-2 font-display text-2xl font-semibold text-primary sm:text-3xl"
+                  data-tsd-source="/src/components/landing/Charity.tsx:141:13"
+                >
+                  Что получают участники программы
+                </h3>
+              </div>
+              <div
+                class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4"
+                data-tsd-source="/src/components/landing/Charity.tsx:146:11"
+              >
+                <div
+                  style="transition-delay: 0ms"
+                  class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0"
+                  data-tsd-source="/src/components/Reveal.tsx:33:5"
+                >
+                  <div
+                    class="glass flex h-full flex-col rounded-3xl p-6 transition-all duration-300 hover:-translate-y-1.5 hover:border-accent/40"
+                    data-tsd-source="/src/components/landing/Charity.tsx:149:17"
+                  >
+                    <span
+                      class="grid size-12 place-items-center rounded-2xl bg-navy-gradient text-accent"
+                      data-tsd-source="/src/components/landing/Charity.tsx:150:19"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-graduation-cap size-5"
+                        aria-hidden="true"
+                        data-tsd-source="/src/components/landing/Charity.tsx:151:21"
+                      >
+                        <path
+                          d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"
+                        ></path>
+                        <path d="M22 10v6"></path>
+                        <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path></svg
+                    ></span>
+                    <h4
+                      class="mt-5 font-display text-lg font-semibold text-primary"
+                      data-tsd-source="/src/components/landing/Charity.tsx:153:19"
+                    >
+                      100% бесплатное менторство
+                    </h4>
+                    <p
+                      class="mt-2.5 flex-1 text-sm leading-relaxed text-muted-foreground"
+                      data-tsd-source="/src/components/landing/Charity.tsx:156:19"
+                    >
+                      Полное сопровождение поступления на государственные стипендии Китая (CSC,
+                      провинциальные гранты, университетские фонды типа A и B) с полным покрытием
+                      обучения и общежития.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  style="transition-delay: 90ms"
+                  class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0"
+                  data-tsd-source="/src/components/Reveal.tsx:33:5"
+                >
+                  <div
+                    class="glass flex h-full flex-col rounded-3xl p-6 transition-all duration-300 hover:-translate-y-1.5 hover:border-accent/40"
+                    data-tsd-source="/src/components/landing/Charity.tsx:149:17"
+                  >
+                    <span
+                      class="grid size-12 place-items-center rounded-2xl bg-navy-gradient text-accent"
+                      data-tsd-source="/src/components/landing/Charity.tsx:150:19"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-file-check-corner size-5"
+                        aria-hidden="true"
+                        data-tsd-source="/src/components/landing/Charity.tsx:151:21"
+                      >
+                        <path
+                          d="M10.5 22H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v6"
+                        ></path>
+                        <path d="M14 2v5a1 1 0 0 0 1 1h5"></path>
+                        <path d="m14 20 2 2 4-4"></path></svg
+                    ></span>
+                    <h4
+                      class="mt-5 font-display text-lg font-semibold text-primary"
+                      data-tsd-source="/src/components/landing/Charity.tsx:153:19"
+                    >
+                      Подготовка эссе и документов
+                    </h4>
+                    <p
+                      class="mt-2.5 flex-1 text-sm leading-relaxed text-muted-foreground"
+                      data-tsd-source="/src/components/landing/Charity.tsx:156:19"
+                    >
+                      Индивидуальный разбор портфолио, написание сильного мотивационного письма и
+                      Study Plan, помощь с рекомендациями и академическим резюме.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  style="transition-delay: 180ms"
+                  class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0"
+                  data-tsd-source="/src/components/Reveal.tsx:33:5"
+                >
+                  <div
+                    class="glass flex h-full flex-col rounded-3xl p-6 transition-all duration-300 hover:-translate-y-1.5 hover:border-accent/40"
+                    data-tsd-source="/src/components/landing/Charity.tsx:149:17"
+                  >
+                    <span
+                      class="grid size-12 place-items-center rounded-2xl bg-navy-gradient text-accent"
+                      data-tsd-source="/src/components/landing/Charity.tsx:150:19"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-book-open size-5"
+                        aria-hidden="true"
+                        data-tsd-source="/src/components/landing/Charity.tsx:151:21"
+                      >
+                        <path d="M12 7v14"></path>
+                        <path
+                          d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"
+                        ></path></svg
+                    ></span>
+                    <h4
+                      class="mt-5 font-display text-lg font-semibold text-primary"
+                      data-tsd-source="/src/components/landing/Charity.tsx:153:19"
+                    >
+                      Языковая и академическая база
+                    </h4>
+                    <p
+                      class="mt-2.5 flex-1 text-sm leading-relaxed text-muted-foreground"
+                      data-tsd-source="/src/components/landing/Charity.tsx:156:19"
+                    >
+                      Предоставление учебных материалов для сдачи HSK и IELTS/TOEFL, консультации с
+                      действующими стипендиатами и проверка готовности к интервью.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  style="transition-delay: 270ms"
+                  class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0"
+                  data-tsd-source="/src/components/Reveal.tsx:33:5"
+                >
+                  <div
+                    class="glass flex h-full flex-col rounded-3xl p-6 transition-all duration-300 hover:-translate-y-1.5 hover:border-accent/40"
+                    data-tsd-source="/src/components/landing/Charity.tsx:149:17"
+                  >
+                    <span
+                      class="grid size-12 place-items-center rounded-2xl bg-navy-gradient text-accent"
+                      data-tsd-source="/src/components/landing/Charity.tsx:150:19"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-plane size-5"
+                        aria-hidden="true"
+                        data-tsd-source="/src/components/landing/Charity.tsx:151:21"
+                      >
+                        <path
+                          d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"
+                        ></path></svg
+                    ></span>
+                    <h4
+                      class="mt-5 font-display text-lg font-semibold text-primary"
+                      data-tsd-source="/src/components/landing/Charity.tsx:153:19"
+                    >
+                      Визы, перелёт и адаптация
+                    </h4>
+                    <p
+                      class="mt-2.5 flex-1 text-sm leading-relaxed text-muted-foreground"
+                      data-tsd-source="/src/components/landing/Charity.tsx:156:19"
+                    >
+                      Пошаговая помощь с визовой анкетой JW201/JW202, встреча в аэропорту,
+                      оформление сим-карт, банковских карт и регистрация в кампусе.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="mt-16 grid gap-8 lg:grid-cols-2 lg:items-stretch"
+              data-tsd-source="/src/components/landing/Charity.tsx:166:9"
+            >
+              <div
+                style="transition-delay: 120ms"
+                class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0"
+                data-tsd-source="/src/components/Reveal.tsx:33:5"
+              >
+                <div
+                  class="glass flex h-full flex-col justify-between rounded-[2rem] p-7 sm:p-9"
+                  data-tsd-source="/src/components/landing/Charity.tsx:168:13"
+                >
+                  <div data-tsd-source="/src/components/landing/Charity.tsx:169:15">
+                    <span
+                      class="inline-flex items-center gap-1.5 text-xs font-semibold tracking-wider text-accent uppercase"
+                      data-tsd-source="/src/components/landing/Charity.tsx:170:17"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-shield-check size-4"
+                        aria-hidden="true"
+                        data-tsd-source="/src/components/landing/Charity.tsx:171:19"
+                      >
+                        <path
+                          d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                        ></path>
+                        <path d="m9 12 2 2 4-4"></path>
+                      </svg>
+                      Критерии участия</span
+                    >
+                    <h3
+                      class="mt-3 font-display text-2xl font-semibold text-primary"
+                      data-tsd-source="/src/components/landing/Charity.tsx:173:17"
+                    >
+                      Для кого создан проект «Дадим шанс»
+                    </h3>
+                    <p
+                      class="mt-3 text-sm leading-relaxed text-muted-foreground"
+                      data-tsd-source="/src/components/landing/Charity.tsx:176:17"
+                    >
+                      Отбор проходит на конкурсной основе несколько раз в год. Мы ищем тех, кому
+                      помощь нужна сильнее всего и кто готов приложить максимум усилий:
+                    </p>
+                    <ul
+                      class="mt-6 space-y-3.5"
+                      data-tsd-source="/src/components/landing/Charity.tsx:181:17"
+                    >
+                      <li
+                        class="flex items-start gap-3"
+                        data-tsd-source="/src/components/landing/Charity.tsx:183:21"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-circle-check mt-0.5 size-5 shrink-0 text-accent"
+                          aria-hidden="true"
+                          data-tsd-source="/src/components/landing/Charity.tsx:184:23"
+                        >
+                          <circle cx="12" cy="12" r="10"></circle>
+                          <path d="m9 12 2 2 4-4"></path></svg
+                        ><span
+                          class="text-sm text-foreground"
+                          data-tsd-source="/src/components/landing/Charity.tsx:185:23"
+                          >Выпускники школ, колледжей или бакалавриата с высоким средним баллом (GPA
+                          от 4.3 из 5.0)</span
+                        >
+                      </li>
+                      <li
+                        class="flex items-start gap-3"
+                        data-tsd-source="/src/components/landing/Charity.tsx:183:21"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-circle-check mt-0.5 size-5 shrink-0 text-accent"
+                          aria-hidden="true"
+                          data-tsd-source="/src/components/landing/Charity.tsx:184:23"
+                        >
+                          <circle cx="12" cy="12" r="10"></circle>
+                          <path d="m9 12 2 2 4-4"></path></svg
+                        ><span
+                          class="text-sm text-foreground"
+                          data-tsd-source="/src/components/landing/Charity.tsx:185:23"
+                          >Ребята из малообеспеченных, многодетных семей, сироты или студенты в
+                          сложных жизненных обстоятельствах</span
+                        >
+                      </li>
+                      <li
+                        class="flex items-start gap-3"
+                        data-tsd-source="/src/components/landing/Charity.tsx:183:21"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-circle-check mt-0.5 size-5 shrink-0 text-accent"
+                          aria-hidden="true"
+                          data-tsd-source="/src/components/landing/Charity.tsx:184:23"
+                        >
+                          <circle cx="12" cy="12" r="10"></circle>
+                          <path d="m9 12 2 2 4-4"></path></svg
+                        ><span
+                          class="text-sm text-foreground"
+                          data-tsd-source="/src/components/landing/Charity.tsx:185:23"
+                          >Искренняя учебная мотивация, активная жизненная позиция и готовность
+                          добросовестно учиться в Китае</span
+                        >
+                      </li>
+                      <li
+                        class="flex items-start gap-3"
+                        data-tsd-source="/src/components/landing/Charity.tsx:183:21"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-circle-check mt-0.5 size-5 shrink-0 text-accent"
+                          aria-hidden="true"
+                          data-tsd-source="/src/components/landing/Charity.tsx:184:23"
+                        >
+                          <circle cx="12" cy="12" r="10"></circle>
+                          <path d="m9 12 2 2 4-4"></path></svg
+                        ><span
+                          class="text-sm text-foreground"
+                          data-tsd-source="/src/components/landing/Charity.tsx:185:23"
+                          >Отсутствие финансовой возможности оплачивать коммерческие консалтинговые
+                          агентства</span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div
+                    class="mt-8 rounded-2xl bg-secondary/60 p-4"
+                    data-tsd-source="/src/components/landing/Charity.tsx:191:15"
+                  >
+                    <p
+                      class="text-xs leading-relaxed text-muted-foreground"
+                      data-tsd-source="/src/components/landing/Charity.tsx:192:17"
+                    >
+                      <strong
+                        class="font-semibold text-primary"
+                        data-tsd-source="/src/components/landing/Charity.tsx:193:19"
+                        >Важно: </strong
+                      >Участие в проекте «Дадим шанс» полностью бесплатное на всех этапах — от
+                      первой анкеты до момента заселения в кампус.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                style="transition-delay: 200ms"
+                class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0"
+                data-tsd-source="/src/components/Reveal.tsx:33:5"
+              >
+                <div
+                  class="rounded-[2rem] bg-navy-gradient p-7 text-primary-foreground sm:p-9"
+                  data-tsd-source="/src/components/landing/Charity.tsx:203:13"
+                >
+                  <span
+                    class="inline-flex items-center gap-1.5 text-xs font-semibold tracking-wider text-accent uppercase"
+                    data-tsd-source="/src/components/landing/Charity.tsx:204:15"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-users size-4"
+                      aria-hidden="true"
+                      data-tsd-source="/src/components/landing/Charity.tsx:205:17"
+                    >
+                      <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                      <path d="M16 3.128a4 4 0 0 1 0 7.744"></path>
+                      <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                    </svg>
+                    Этапы пути</span
+                  >
+                  <h3
+                    class="mt-3 font-display text-2xl font-semibold text-primary-foreground"
+                    data-tsd-source="/src/components/landing/Charity.tsx:207:15"
+                  >
+                    Как устроен отбор и работа
+                  </h3>
+                  <p
+                    class="mt-3 text-sm leading-relaxed text-primary-foreground/75"
+                    data-tsd-source="/src/components/landing/Charity.tsx:210:15"
+                  >
+                    Прозрачный и понятный процесс от первой заявки до грантового сертификата:
+                  </p>
+                  <div
+                    class="mt-6 space-y-4"
+                    data-tsd-source="/src/components/landing/Charity.tsx:214:15"
+                  >
+                    <div
+                      class="glass-dark flex items-start gap-4 rounded-2xl p-3.5 transition-transform hover:translate-x-1"
+                      data-tsd-source="/src/components/landing/Charity.tsx:216:19"
+                    >
+                      <span
+                        class="grid size-10 shrink-0 place-items-center rounded-xl bg-white/10 font-display text-sm font-bold text-accent"
+                        data-tsd-source="/src/components/landing/Charity.tsx:220:21"
+                        >01</span
+                      >
+                      <div
+                        class="min-w-0"
+                        data-tsd-source="/src/components/landing/Charity.tsx:223:21"
+                      >
+                        <h4
+                          class="font-display text-sm font-semibold text-primary-foreground"
+                          data-tsd-source="/src/components/landing/Charity.tsx:224:23"
+                        >
+                          Подача заявки
+                        </h4>
+                        <p
+                          class="mt-1 text-xs leading-relaxed text-primary-foreground/70"
+                          data-tsd-source="/src/components/landing/Charity.tsx:227:23"
+                        >
+                          Заполнение анкеты участника с описанием своей истории, школьных успехов и
+                          желаемого направления обучения.
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="glass-dark flex items-start gap-4 rounded-2xl p-3.5 transition-transform hover:translate-x-1"
+                      data-tsd-source="/src/components/landing/Charity.tsx:216:19"
+                    >
+                      <span
+                        class="grid size-10 shrink-0 place-items-center rounded-xl bg-white/10 font-display text-sm font-bold text-accent"
+                        data-tsd-source="/src/components/landing/Charity.tsx:220:21"
+                        >02</span
+                      >
+                      <div
+                        class="min-w-0"
+                        data-tsd-source="/src/components/landing/Charity.tsx:223:21"
+                      >
+                        <h4
+                          class="font-display text-sm font-semibold text-primary-foreground"
+                          data-tsd-source="/src/components/landing/Charity.tsx:224:23"
+                        >
+                          Отбор и собеседование
+                        </h4>
+                        <p
+                          class="mt-1 text-xs leading-relaxed text-primary-foreground/70"
+                          data-tsd-source="/src/components/landing/Charity.tsx:227:23"
+                        >
+                          Личный онлайн-созвон с Рианой для обсуждения целей, оценки уровня
+                          подготовки и проверки документов.
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="glass-dark flex items-start gap-4 rounded-2xl p-3.5 transition-transform hover:translate-x-1"
+                      data-tsd-source="/src/components/landing/Charity.tsx:216:19"
+                    >
+                      <span
+                        class="grid size-10 shrink-0 place-items-center rounded-xl bg-white/10 font-display text-sm font-bold text-accent"
+                        data-tsd-source="/src/components/landing/Charity.tsx:220:21"
+                        >03</span
+                      >
+                      <div
+                        class="min-w-0"
+                        data-tsd-source="/src/components/landing/Charity.tsx:223:21"
+                      >
+                        <h4
+                          class="font-display text-sm font-semibold text-primary-foreground"
+                          data-tsd-source="/src/components/landing/Charity.tsx:224:23"
+                        >
+                          Грантовая стратегия
+                        </h4>
+                        <p
+                          class="mt-1 text-xs leading-relaxed text-primary-foreground/70"
+                          data-tsd-source="/src/components/landing/Charity.tsx:227:23"
+                        >
+                          Индивидуальный подбор 3–5 целевых китайских университетов с максимальными
+                          шансами на полный грант.
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="glass-dark flex items-start gap-4 rounded-2xl p-3.5 transition-transform hover:translate-x-1"
+                      data-tsd-source="/src/components/landing/Charity.tsx:216:19"
+                    >
+                      <span
+                        class="grid size-10 shrink-0 place-items-center rounded-xl bg-white/10 font-display text-sm font-bold text-accent"
+                        data-tsd-source="/src/components/landing/Charity.tsx:220:21"
+                        >04</span
+                      >
+                      <div
+                        class="min-w-0"
+                        data-tsd-source="/src/components/landing/Charity.tsx:223:21"
+                      >
+                        <h4
+                          class="font-display text-sm font-semibold text-primary-foreground"
+                          data-tsd-source="/src/components/landing/Charity.tsx:224:23"
+                        >
+                          Подача и зачисление
+                        </h4>
+                        <p
+                          class="mt-1 text-xs leading-relaxed text-primary-foreground/70"
+                          data-tsd-source="/src/components/landing/Charity.tsx:227:23"
+                        >
+                          Финальная вычитка документов, подача в приёмные комиссии вузов и получение
+                          заветного письма о зачислении.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              style="transition-delay: 150ms"
+              class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0 mt-12"
+              data-tsd-source="/src/components/Reveal.tsx:33:5"
+            >
+              <div
+                class="flex flex-col items-center justify-between gap-6 rounded-3xl border border-accent/30 bg-accent/10 p-6 sm:flex-row sm:p-8"
+                data-tsd-source="/src/components/landing/Charity.tsx:240:11"
+              >
+                <div
+                  class="min-w-0 text-center sm:text-left"
+                  data-tsd-source="/src/components/landing/Charity.tsx:241:13"
+                >
+                  <h4
+                    class="font-display text-xl font-semibold text-primary"
+                    data-tsd-source="/src/components/landing/Charity.tsx:242:15"
+                  >
+                    Хотите принять участие или поддержать проект?
+                  </h4>
+                  <p
+                    class="mt-1 text-sm text-muted-foreground"
+                    data-tsd-source="/src/components/landing/Charity.tsx:245:15"
+                  >
+                    Подайте заявку на следующий отбор или напишите Риане в Instagram (основной
+                    ресурс) с тегом #ДадимШанс.
+                  </p>
+                </div>
+                <div
+                  class="flex shrink-0 flex-wrap gap-3"
+                  data-tsd-source="/src/components/landing/Charity.tsx:250:13"
+                >
+                  <a
+                    href="#contact"
+                    data-tsd-source="/src/components/landing/Charity.tsx:252:17"
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap cursor-pointer focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-gold-gradient text-accent-foreground font-semibold shadow-[var(--shadow-gold)] transition-all hover:brightness-105 hover:-translate-y-0.5 h-11 rounded-full px-6 text-sm"
+                    >Подать заявку на участие
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-arrow-right ml-1 size-4"
+                      aria-hidden="true"
+                      data-tsd-source="/src/components/landing/Charity.tsx:253:44"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="m12 5 7 7-7 7"></path></svg></a
+                  ><a
+                    href="https://www.instagram.com/riana.china?stkn=MTR5NzMxM293eHBkcg=="
+                    target="_blank"
+                    rel="noreferrer"
+                    data-tsd-source="/src/components/landing/Charity.tsx:257:17"
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium cursor-pointer focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-primary/25 bg-transparent text-primary transition-all hover:bg-primary hover:text-primary-foreground h-11 rounded-full px-6 text-sm"
+                    >Написать в Instagram</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          id="services"
+          class="relative bg-secondary/50 py-24"
+          data-tsd-source="/src/components/landing/Services.tsx:25:5"
+        >
+          <div
+            class="mx-auto max-w-7xl px-4 sm:px-6"
+            data-tsd-source="/src/components/landing/Services.tsx:26:7"
+          >
+            <div
+              style="transition-delay: 0ms"
+              class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0 mx-auto max-w-2xl text-center"
+              data-tsd-source="/src/components/Reveal.tsx:33:5"
+            >
+              <p
+                class="text-xs font-semibold tracking-[0.2em] text-accent uppercase"
+                data-tsd-source="/src/components/landing/Services.tsx:28:11"
+              >
+                Услуги
+              </p>
+              <h2
+                class="mt-4 font-display text-3xl font-semibold text-primary sm:text-4xl"
+                data-tsd-source="/src/components/landing/Services.tsx:29:11"
+              >
+                Программы сопровождения поступления в Китай
+              </h2>
+            </div>
+            <div
+              class="mt-14 grid gap-6 md:grid-cols-3"
+              data-tsd-source="/src/components/landing/Services.tsx:34:9"
+            >
+              <div
+                style="transition-delay: 0ms"
+                class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0"
+                data-tsd-source="/src/components/Reveal.tsx:33:5"
+              >
+                <article
+                  class="glass group flex h-full flex-col rounded-3xl p-7 transition-all duration-300 hover:-translate-y-1.5 hover:border-accent/40"
+                  data-tsd-source="/src/components/landing/Services.tsx:37:15"
+                >
+                  <span
+                    class="grid size-12 place-items-center rounded-2xl bg-navy-gradient text-accent transition-transform duration-300 group-hover:scale-105"
+                    data-tsd-source="/src/components/landing/Services.tsx:38:17"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-compass size-5"
+                      aria-hidden="true"
+                      data-tsd-source="/src/components/landing/Services.tsx:39:19"
+                    >
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <path
+                        d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"
+                      ></path></svg
+                  ></span>
+                  <h3
+                    class="mt-6 font-display text-xl font-semibold text-primary"
+                    data-tsd-source="/src/components/landing/Services.tsx:41:17"
+                  >
+                    Стратегия и выбор вузов Китая
+                  </h3>
+                  <p
+                    class="mt-3 flex-1 text-sm leading-relaxed text-muted-foreground"
+                    data-tsd-source="/src/components/landing/Services.tsx:42:17"
+                  >
+                    Подбор целевых университетов (включая SCUT, вузы Project 985/211), оценка шансов
+                    на государственные стипендии и составление дорожной карты.
+                  </p>
+                  <a
+                    href="#contact"
+                    data-tsd-source="/src/components/landing/Services.tsx:46:19"
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium cursor-pointer focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-primary/25 bg-transparent text-primary transition-all hover:bg-primary hover:text-primary-foreground h-11 rounded-full px-6 text-sm mt-6 self-start"
+                    >Детальнее</a
+                  >
+                </article>
+              </div>
+              <div
+                style="transition-delay: 120ms"
+                class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0"
+                data-tsd-source="/src/components/Reveal.tsx:33:5"
+              >
+                <article
+                  class="glass group flex h-full flex-col rounded-3xl p-7 transition-all duration-300 hover:-translate-y-1.5 hover:border-accent/40"
+                  data-tsd-source="/src/components/landing/Services.tsx:37:15"
+                >
+                  <span
+                    class="grid size-12 place-items-center rounded-2xl bg-navy-gradient text-accent transition-transform duration-300 group-hover:scale-105"
+                    data-tsd-source="/src/components/landing/Services.tsx:38:17"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-pen-line size-5"
+                      aria-hidden="true"
+                      data-tsd-source="/src/components/landing/Services.tsx:39:19"
+                    >
+                      <path d="M13 21h8"></path>
+                      <path
+                        d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
+                      ></path></svg
+                  ></span>
+                  <h3
+                    class="mt-6 font-display text-xl font-semibold text-primary"
+                    data-tsd-source="/src/components/landing/Services.tsx:41:17"
+                  >
+                    Документы и Study Plan
+                  </h3>
+                  <p
+                    class="mt-3 flex-1 text-sm leading-relaxed text-muted-foreground"
+                    data-tsd-source="/src/components/landing/Services.tsx:42:17"
+                  >
+                    Написание сильного академического Study Plan, мотивационных писем, подготовка
+                    рекомендаций и правильное оформление для приёмных комиссий Китая.
+                  </p>
+                  <a
+                    href="#contact"
+                    data-tsd-source="/src/components/landing/Services.tsx:46:19"
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium cursor-pointer focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-primary/25 bg-transparent text-primary transition-all hover:bg-primary hover:text-primary-foreground h-11 rounded-full px-6 text-sm mt-6 self-start"
+                    >Детальнее</a
+                  >
+                </article>
+              </div>
+              <div
+                style="transition-delay: 240ms"
+                class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0"
+                data-tsd-source="/src/components/Reveal.tsx:33:5"
+              >
+                <article
+                  class="glass group flex h-full flex-col rounded-3xl p-7 transition-all duration-300 hover:-translate-y-1.5 hover:border-accent/40"
+                  data-tsd-source="/src/components/landing/Services.tsx:37:15"
+                >
+                  <span
+                    class="grid size-12 place-items-center rounded-2xl bg-navy-gradient text-accent transition-transform duration-300 group-hover:scale-105"
+                    data-tsd-source="/src/components/landing/Services.tsx:38:17"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-handshake size-5"
+                      aria-hidden="true"
+                      data-tsd-source="/src/components/landing/Services.tsx:39:19"
+                    >
+                      <path d="m11 17 2 2a1 1 0 1 0 3-3"></path>
+                      <path
+                        d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"
+                      ></path>
+                      <path d="m21 3 1 11h-2"></path>
+                      <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"></path>
+                      <path d="M3 4h8"></path></svg
+                  ></span>
+                  <h3
+                    class="mt-6 font-display text-xl font-semibold text-primary"
+                    data-tsd-source="/src/components/landing/Services.tsx:41:17"
+                  >
+                    Полное сопровождение «под ключ»
+                  </h3>
+                  <p
+                    class="mt-3 flex-1 text-sm leading-relaxed text-muted-foreground"
+                    data-tsd-source="/src/components/landing/Services.tsx:42:17"
+                  >
+                    От первой анкеты до приказа о зачислении, получение визовых форм JW201/JW202,
+                    оформление студенческой визы и встреча в Китае.
+                  </p>
+                  <a
+                    href="#contact"
+                    data-tsd-source="/src/components/landing/Services.tsx:46:19"
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium cursor-pointer focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-primary/25 bg-transparent text-primary transition-all hover:bg-primary hover:text-primary-foreground h-11 rounded-full px-6 text-sm mt-6 self-start"
+                    >Детальнее</a
+                  >
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          id="results"
+          class="relative overflow-hidden bg-navy-gradient py-24"
+          data-tsd-source="/src/components/landing/Results.tsx:20:5"
+        >
+          <div
+            aria-hidden="true"
+            class="pointer-events-none absolute top-1/2 left-1/2 size-[36rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gold-gradient opacity-10 blur-3xl"
+            data-tsd-source="/src/components/landing/Results.tsx:21:7"
+          ></div>
+          <div
+            class="relative mx-auto max-w-7xl px-4 sm:px-6"
+            data-tsd-source="/src/components/landing/Results.tsx:25:7"
+          >
+            <div
+              style="transition-delay: 0ms"
+              class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0 mx-auto max-w-2xl text-center"
+              data-tsd-source="/src/components/Reveal.tsx:33:5"
+            >
+              <p
+                class="text-xs font-semibold tracking-[0.2em] text-accent uppercase"
+                data-tsd-source="/src/components/landing/Results.tsx:27:11"
+              >
+                Результаты
+              </p>
+              <h2
+                class="mt-4 font-display text-3xl font-semibold text-primary-foreground sm:text-4xl"
+                data-tsd-source="/src/components/landing/Results.tsx:28:11"
+              >
+                Достижения студентов Riana Admissions
+              </h2>
+            </div>
+            <div
+              class="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4"
+              data-tsd-source="/src/components/landing/Results.tsx:33:9"
+            >
+              <div
+                style="transition-delay: 0ms"
+                class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0"
+                data-tsd-source="/src/components/Reveal.tsx:33:5"
+              >
+                <div
+                  class="glass-dark h-full rounded-3xl p-6 transition-transform duration-300 hover:-translate-y-1.5"
+                  data-tsd-source="/src/components/landing/Results.tsx:36:15"
+                >
+                  <p
+                    class="font-display text-3xl font-semibold text-accent"
+                    data-tsd-source="/src/components/landing/Results.tsx:37:17"
+                  >
+                    35+
+                  </p>
+                  <p
+                    class="mt-3 text-sm font-medium text-primary-foreground"
+                    data-tsd-source="/src/components/landing/Results.tsx:38:17"
+                  >
+                    Студентов отправлено
+                  </p>
+                  <p
+                    class="mt-1 text-xs text-primary-foreground/60"
+                    data-tsd-source="/src/components/landing/Results.tsx:39:17"
+                  >
+                    успешно учатся в Китае
+                  </p>
+                </div>
+              </div>
+              <div
+                style="transition-delay: 100ms"
+                class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0"
+                data-tsd-source="/src/components/Reveal.tsx:33:5"
+              >
+                <div
+                  class="glass-dark h-full rounded-3xl p-6 transition-transform duration-300 hover:-translate-y-1.5"
+                  data-tsd-source="/src/components/landing/Results.tsx:36:15"
+                >
+                  <p
+                    class="font-display text-3xl font-semibold text-accent"
+                    data-tsd-source="/src/components/landing/Results.tsx:37:17"
+                  >
+                    15+
+                  </p>
+                  <p
+                    class="mt-3 text-sm font-medium text-primary-foreground"
+                    data-tsd-source="/src/components/landing/Results.tsx:38:17"
+                  >
+                    Студентов с грантами
+                  </p>
+                  <p
+                    class="mt-1 text-xs text-primary-foreground/60"
+                    data-tsd-source="/src/components/landing/Results.tsx:39:17"
+                  >
+                    полные и частичные стипендии
+                  </p>
+                </div>
+              </div>
+              <div
+                style="transition-delay: 200ms"
+                class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0"
+                data-tsd-source="/src/components/Reveal.tsx:33:5"
+              >
+                <div
+                  class="glass-dark h-full rounded-3xl p-6 transition-transform duration-300 hover:-translate-y-1.5"
+                  data-tsd-source="/src/components/landing/Results.tsx:36:15"
+                >
+                  <p
+                    class="font-display text-3xl font-semibold text-accent"
+                    data-tsd-source="/src/components/landing/Results.tsx:37:17"
+                  >
+                    SCUT
+                  </p>
+                  <p
+                    class="mt-3 text-sm font-medium text-primary-foreground"
+                    data-tsd-source="/src/components/landing/Results.tsx:38:17"
+                  >
+                    Южно-Китайский технологический
+                  </p>
+                  <p
+                    class="mt-1 text-xs text-primary-foreground/60"
+                    data-tsd-source="/src/components/landing/Results.tsx:39:17"
+                  >
+                    топовый вуз Китая (Project 985/211)
+                  </p>
+                </div>
+              </div>
+              <div
+                style="transition-delay: 300ms"
+                class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0"
+                data-tsd-source="/src/components/Reveal.tsx:33:5"
+              >
+                <div
+                  class="glass-dark h-full rounded-3xl p-6 transition-transform duration-300 hover:-translate-y-1.5"
+                  data-tsd-source="/src/components/landing/Results.tsx:36:15"
+                >
+                  <p
+                    class="font-display text-3xl font-semibold text-accent"
+                    data-tsd-source="/src/components/landing/Results.tsx:37:17"
+                  >
+                    1+ год
+                  </p>
+                  <p
+                    class="mt-3 text-sm font-medium text-primary-foreground"
+                    data-tsd-source="/src/components/landing/Results.tsx:38:17"
+                  >
+                    Практического опыта
+                  </p>
+                  <p
+                    class="mt-1 text-xs text-primary-foreground/60"
+                    data-tsd-source="/src/components/landing/Results.tsx:39:17"
+                  >
+                    личное кураторство каждого студента
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          id="testimonials"
+          class="py-24"
+          data-tsd-source="/src/components/landing/Testimonials.tsx:27:5"
+        >
+          <div
+            class="mx-auto max-w-7xl px-4 sm:px-6"
+            data-tsd-source="/src/components/landing/Testimonials.tsx:28:7"
+          >
+            <div
+              style="transition-delay: 0ms"
+              class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0 mx-auto max-w-2xl text-center"
+              data-tsd-source="/src/components/Reveal.tsx:33:5"
+            >
+              <p
+                class="text-xs font-semibold tracking-[0.2em] text-accent uppercase"
+                data-tsd-source="/src/components/landing/Testimonials.tsx:30:11"
+              >
+                Отзывы
+              </p>
+              <h2
+                class="mt-4 font-display text-3xl font-semibold text-primary sm:text-4xl"
+                data-tsd-source="/src/components/landing/Testimonials.tsx:31:11"
+              >
+                Что говорят мои студенты
+              </h2>
+            </div>
+            <div
+              class="mt-14 grid gap-6 md:grid-cols-3"
+              data-tsd-source="/src/components/landing/Testimonials.tsx:36:9"
+            >
+              <div
+                style="transition-delay: 0ms"
+                class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0"
+                data-tsd-source="/src/components/Reveal.tsx:33:5"
+              >
+                <figure
+                  class="glass flex h-full flex-col rounded-3xl p-7 transition-all duration-300 hover:-translate-y-1.5"
+                  data-tsd-source="/src/components/landing/Testimonials.tsx:39:15"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-quote size-7 text-accent"
+                    aria-hidden="true"
+                    data-tsd-source="/src/components/landing/Testimonials.tsx:40:17"
+                  >
+                    <path
+                      d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"
+                    ></path>
+                    <path
+                      d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"
+                    ></path>
+                  </svg>
+                  <blockquote
+                    class="mt-4 flex-1 text-sm leading-relaxed text-foreground"
+                    data-tsd-source="/src/components/landing/Testimonials.tsx:41:17"
+                  >
+                    «<!-- -->Благодаря Риане я поступил в SCUT — топовый вуз Китая (Project 985/211)
+                    на программу с грантом! Она помогла выстроить грамотный Study Plan и собрать
+                    весь пакет документов без единой ошибки.<!-- -->»
+                  </blockquote>
+                  <figcaption
+                    class="mt-6 flex min-w-0 items-center gap-3"
+                    data-tsd-source="/src/components/landing/Testimonials.tsx:44:17"
+                  >
+                    <span
+                      class="grid size-11 shrink-0 place-items-center rounded-full bg-navy-gradient font-display text-sm font-semibold text-accent"
+                      data-tsd-source="/src/components/landing/Testimonials.tsx:45:19"
+                      >АМ</span
+                    >
+                    <div
+                      class="min-w-0"
+                      data-tsd-source="/src/components/landing/Testimonials.tsx:48:19"
+                    >
+                      <p
+                        class="truncate text-sm font-semibold text-primary"
+                        data-tsd-source="/src/components/landing/Testimonials.tsx:49:21"
+                      >
+                        Алихан М.
+                      </p>
+                      <p
+                        class="truncate text-xs text-muted-foreground"
+                        data-tsd-source="/src/components/landing/Testimonials.tsx:50:21"
+                      >
+                        South China University of Technology (SCUT)
+                      </p>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+              <div
+                style="transition-delay: 120ms"
+                class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0"
+                data-tsd-source="/src/components/Reveal.tsx:33:5"
+              >
+                <figure
+                  class="glass flex h-full flex-col rounded-3xl p-7 transition-all duration-300 hover:-translate-y-1.5"
+                  data-tsd-source="/src/components/landing/Testimonials.tsx:39:15"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-quote size-7 text-accent"
+                    aria-hidden="true"
+                    data-tsd-source="/src/components/landing/Testimonials.tsx:40:17"
+                  >
+                    <path
+                      d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"
+                    ></path>
+                    <path
+                      d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"
+                    ></path>
+                  </svg>
+                  <blockquote
+                    class="mt-4 flex-1 text-sm leading-relaxed text-foreground"
+                    data-tsd-source="/src/components/landing/Testimonials.tsx:41:17"
+                  >
+                    «<!-- -->Я не понимал, с чего начать выбор провинции и вуза. За пару созвонов
+                    появилась чёткая стратегия, а через несколько месяцев пришло заветное
+                    приглашение и грант.<!-- -->»
+                  </blockquote>
+                  <figcaption
+                    class="mt-6 flex min-w-0 items-center gap-3"
+                    data-tsd-source="/src/components/landing/Testimonials.tsx:44:17"
+                  >
+                    <span
+                      class="grid size-11 shrink-0 place-items-center rounded-full bg-navy-gradient font-display text-sm font-semibold text-accent"
+                      data-tsd-source="/src/components/landing/Testimonials.tsx:45:19"
+                      >ДС</span
+                    >
+                    <div
+                      class="min-w-0"
+                      data-tsd-source="/src/components/landing/Testimonials.tsx:48:19"
+                    >
+                      <p
+                        class="truncate text-sm font-semibold text-primary"
+                        data-tsd-source="/src/components/landing/Testimonials.tsx:49:21"
+                      >
+                        Дамир С.
+                      </p>
+                      <p
+                        class="truncate text-xs text-muted-foreground"
+                        data-tsd-source="/src/components/landing/Testimonials.tsx:50:21"
+                      >
+                        Университет в Ханчжоу (стипендия)
+                      </p>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+              <div
+                style="transition-delay: 240ms"
+                class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0"
+                data-tsd-source="/src/components/Reveal.tsx:33:5"
+              >
+                <figure
+                  class="glass flex h-full flex-col rounded-3xl p-7 transition-all duration-300 hover:-translate-y-1.5"
+                  data-tsd-source="/src/components/landing/Testimonials.tsx:39:15"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-quote size-7 text-accent"
+                    aria-hidden="true"
+                    data-tsd-source="/src/components/landing/Testimonials.tsx:40:17"
+                  >
+                    <path
+                      d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"
+                    ></path>
+                    <path
+                      d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"
+                    ></path>
+                  </svg>
+                  <blockquote
+                    class="mt-4 flex-1 text-sm leading-relaxed text-foreground"
+                    data-tsd-source="/src/components/landing/Testimonials.tsx:41:17"
+                  >
+                    «<!-- -->Дедлайны, документы, рекомендации — всё было под контролем. В Китае
+                    Риана всегда была на связи и помогла быстро освоиться.<!-- -->»
+                  </blockquote>
+                  <figcaption
+                    class="mt-6 flex min-w-0 items-center gap-3"
+                    data-tsd-source="/src/components/landing/Testimonials.tsx:44:17"
+                  >
+                    <span
+                      class="grid size-11 shrink-0 place-items-center rounded-full bg-navy-gradient font-display text-sm font-semibold text-accent"
+                      data-tsd-source="/src/components/landing/Testimonials.tsx:45:19"
+                      >МТ</span
+                    >
+                    <div
+                      class="min-w-0"
+                      data-tsd-source="/src/components/landing/Testimonials.tsx:48:19"
+                    >
+                      <p
+                        class="truncate text-sm font-semibold text-primary"
+                        data-tsd-source="/src/components/landing/Testimonials.tsx:49:21"
+                      >
+                        Мадина Т.
+                      </p>
+                      <p
+                        class="truncate text-xs text-muted-foreground"
+                        data-tsd-source="/src/components/landing/Testimonials.tsx:50:21"
+                      >
+                        Университет в Гуанчжоу
+                      </p>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          id="faq"
+          class="bg-secondary/50 py-24"
+          data-tsd-source="/src/components/landing/Faq.tsx:42:5"
+        >
+          <div
+            class="mx-auto max-w-3xl px-4 sm:px-6"
+            data-tsd-source="/src/components/landing/Faq.tsx:43:7"
+          >
+            <div
+              style="transition-delay: 0ms"
+              class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0 text-center"
+              data-tsd-source="/src/components/Reveal.tsx:33:5"
+            >
+              <p
+                class="text-xs font-semibold tracking-[0.2em] text-accent uppercase"
+                data-tsd-source="/src/components/landing/Faq.tsx:45:11"
+              >
+                FAQ
+              </p>
+              <h2
+                class="mt-4 font-display text-3xl font-semibold text-primary sm:text-4xl"
+                data-tsd-source="/src/components/landing/Faq.tsx:46:11"
+              >
+                Частые вопросы о поступлении
+              </h2>
+            </div>
+            <div
+              style="transition-delay: 100ms"
+              class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0 mt-12"
+              data-tsd-source="/src/components/Reveal.tsx:33:5"
+            >
+              <div
+                class="glass rounded-3xl px-5 py-2"
+                data-tsd-source="/src/components/landing/Faq.tsx:52:11"
+                data-orientation="vertical"
+              >
+                <div
+                  data-state="closed"
+                  data-orientation="vertical"
+                  class="border-b border-border/60"
+                  data-tsd-source="/src/components/landing/Faq.tsx:54:15"
+                >
+                  <h3
+                    data-orientation="vertical"
+                    data-state="closed"
+                    class="flex"
+                    data-tsd-source="/src/components/ui/accordion.tsx:21:3"
+                  >
+                    <button
+                      type="button"
+                      aria-expanded="false"
+                      data-state="closed"
+                      data-orientation="vertical"
+                      id="radix-_R_1jpaq_"
+                      class="flex flex-1 items-center justify-between py-4 cursor-pointer transition-all hover:underline [&amp;[data-state=open]&gt;svg]:rotate-180 text-left font-display text-base font-medium text-primary"
+                      data-tsd-source="/src/components/landing/Faq.tsx:55:17"
+                      data-radix-collection-item=""
+                    >
+                      Что такое благотворительный проект «Дадим шанс» и как в него попасть?<svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-chevron-down h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200"
+                        aria-hidden="true"
+                        data-tsd-source="/src/components/ui/accordion.tsx:31:7"
+                      >
+                        <path d="m6 9 6 6 6-6"></path>
+                      </svg>
+                    </button>
+                  </h3>
+                  <div
+                    data-state="closed"
+                    id="radix-_R_9jpaq_"
+                    hidden=""
+                    role="region"
+                    aria-labelledby="radix-_R_1jpaq_"
+                    data-orientation="vertical"
+                    class="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
+                    data-tsd-source="/src/components/landing/Faq.tsx:58:17"
+                    style="
+                      --radix-accordion-content-height: var(--radix-collapsible-content-height);
+                      --radix-accordion-content-width: var(--radix-collapsible-content-width);
+                    "
+                  ></div>
+                </div>
+                <div
+                  data-state="closed"
+                  data-orientation="vertical"
+                  class="border-b border-border/60"
+                  data-tsd-source="/src/components/landing/Faq.tsx:54:15"
+                >
+                  <h3
+                    data-orientation="vertical"
+                    data-state="closed"
+                    class="flex"
+                    data-tsd-source="/src/components/ui/accordion.tsx:21:3"
+                  >
+                    <button
+                      type="button"
+                      aria-expanded="false"
+                      data-state="closed"
+                      data-orientation="vertical"
+                      id="radix-_R_2jpaq_"
+                      class="flex flex-1 items-center justify-between py-4 cursor-pointer transition-all hover:underline [&amp;[data-state=open]&gt;svg]:rotate-180 text-left font-display text-base font-medium text-primary"
+                      data-tsd-source="/src/components/landing/Faq.tsx:55:17"
+                      data-radix-collection-item=""
+                    >
+                      Какие расходы покрывают полные гранты в Китае (CSC и провинциальные)?<svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-chevron-down h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200"
+                        aria-hidden="true"
+                        data-tsd-source="/src/components/ui/accordion.tsx:31:7"
+                      >
+                        <path d="m6 9 6 6 6-6"></path>
+                      </svg>
+                    </button>
+                  </h3>
+                  <div
+                    data-state="closed"
+                    id="radix-_R_ajpaq_"
+                    hidden=""
+                    role="region"
+                    aria-labelledby="radix-_R_2jpaq_"
+                    data-orientation="vertical"
+                    class="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
+                    data-tsd-source="/src/components/landing/Faq.tsx:58:17"
+                    style="
+                      --radix-accordion-content-height: var(--radix-collapsible-content-height);
+                      --radix-accordion-content-width: var(--radix-collapsible-content-width);
+                    "
+                  ></div>
+                </div>
+                <div
+                  data-state="closed"
+                  data-orientation="vertical"
+                  class="border-b border-border/60"
+                  data-tsd-source="/src/components/landing/Faq.tsx:54:15"
+                >
+                  <h3
+                    data-orientation="vertical"
+                    data-state="closed"
+                    class="flex"
+                    data-tsd-source="/src/components/ui/accordion.tsx:21:3"
+                  >
+                    <button
+                      type="button"
+                      aria-expanded="false"
+                      data-state="closed"
+                      data-orientation="vertical"
+                      id="radix-_R_3jpaq_"
+                      class="flex flex-1 items-center justify-between py-4 cursor-pointer transition-all hover:underline [&amp;[data-state=open]&gt;svg]:rotate-180 text-left font-display text-base font-medium text-primary"
+                      data-tsd-source="/src/components/landing/Faq.tsx:55:17"
+                      data-radix-collection-item=""
+                    >
+                      Когда начинать подготовку к поступлению?<svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-chevron-down h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200"
+                        aria-hidden="true"
+                        data-tsd-source="/src/components/ui/accordion.tsx:31:7"
+                      >
+                        <path d="m6 9 6 6 6-6"></path>
+                      </svg>
+                    </button>
+                  </h3>
+                  <div
+                    data-state="closed"
+                    id="radix-_R_bjpaq_"
+                    hidden=""
+                    role="region"
+                    aria-labelledby="radix-_R_3jpaq_"
+                    data-orientation="vertical"
+                    class="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
+                    data-tsd-source="/src/components/landing/Faq.tsx:58:17"
+                    style="
+                      --radix-accordion-content-height: var(--radix-collapsible-content-height);
+                      --radix-accordion-content-width: var(--radix-collapsible-content-width);
+                    "
+                  ></div>
+                </div>
+                <div
+                  data-state="closed"
+                  data-orientation="vertical"
+                  class="border-b border-border/60"
+                  data-tsd-source="/src/components/landing/Faq.tsx:54:15"
+                >
+                  <h3
+                    data-orientation="vertical"
+                    data-state="closed"
+                    class="flex"
+                    data-tsd-source="/src/components/ui/accordion.tsx:21:3"
+                  >
+                    <button
+                      type="button"
+                      aria-expanded="false"
+                      data-state="closed"
+                      data-orientation="vertical"
+                      id="radix-_R_4jpaq_"
+                      class="flex flex-1 items-center justify-between py-4 cursor-pointer transition-all hover:underline [&amp;[data-state=open]&gt;svg]:rotate-180 text-left font-display text-base font-medium text-primary"
+                      data-tsd-source="/src/components/landing/Faq.tsx:55:17"
+                      data-radix-collection-item=""
+                    >
+                      Как выбрать подходящий вуз и специальность в Китае?<svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-chevron-down h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200"
+                        aria-hidden="true"
+                        data-tsd-source="/src/components/ui/accordion.tsx:31:7"
+                      >
+                        <path d="m6 9 6 6 6-6"></path>
+                      </svg>
+                    </button>
+                  </h3>
+                  <div
+                    data-state="closed"
+                    id="radix-_R_cjpaq_"
+                    hidden=""
+                    role="region"
+                    aria-labelledby="radix-_R_4jpaq_"
+                    data-orientation="vertical"
+                    class="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
+                    data-tsd-source="/src/components/landing/Faq.tsx:58:17"
+                    style="
+                      --radix-accordion-content-height: var(--radix-collapsible-content-height);
+                      --radix-accordion-content-width: var(--radix-collapsible-content-width);
+                    "
+                  ></div>
+                </div>
+                <div
+                  data-state="closed"
+                  data-orientation="vertical"
+                  class="border-b border-border/60"
+                  data-tsd-source="/src/components/landing/Faq.tsx:54:15"
+                >
+                  <h3
+                    data-orientation="vertical"
+                    data-state="closed"
+                    class="flex"
+                    data-tsd-source="/src/components/ui/accordion.tsx:21:3"
+                  >
+                    <button
+                      type="button"
+                      aria-expanded="false"
+                      data-state="closed"
+                      data-orientation="vertical"
+                      id="radix-_R_5jpaq_"
+                      class="flex flex-1 items-center justify-between py-4 cursor-pointer transition-all hover:underline [&amp;[data-state=open]&gt;svg]:rotate-180 text-left font-display text-base font-medium text-primary"
+                      data-tsd-source="/src/components/landing/Faq.tsx:55:17"
+                      data-radix-collection-item=""
+                    >
+                      Нужен ли высокий HSK или IELTS для поступления на грант?<svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-chevron-down h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200"
+                        aria-hidden="true"
+                        data-tsd-source="/src/components/ui/accordion.tsx:31:7"
+                      >
+                        <path d="m6 9 6 6 6-6"></path>
+                      </svg>
+                    </button>
+                  </h3>
+                  <div
+                    data-state="closed"
+                    id="radix-_R_djpaq_"
+                    hidden=""
+                    role="region"
+                    aria-labelledby="radix-_R_5jpaq_"
+                    data-orientation="vertical"
+                    class="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
+                    data-tsd-source="/src/components/landing/Faq.tsx:58:17"
+                    style="
+                      --radix-accordion-content-height: var(--radix-collapsible-content-height);
+                      --radix-accordion-content-width: var(--radix-collapsible-content-width);
+                    "
+                  ></div>
+                </div>
+                <div
+                  data-state="closed"
+                  data-orientation="vertical"
+                  class="border-b border-border/60"
+                  data-tsd-source="/src/components/landing/Faq.tsx:54:15"
+                >
+                  <h3
+                    data-orientation="vertical"
+                    data-state="closed"
+                    class="flex"
+                    data-tsd-source="/src/components/ui/accordion.tsx:21:3"
+                  >
+                    <button
+                      type="button"
+                      aria-expanded="false"
+                      data-state="closed"
+                      data-orientation="vertical"
+                      id="radix-_R_6jpaq_"
+                      class="flex flex-1 items-center justify-between py-4 cursor-pointer transition-all hover:underline [&amp;[data-state=open]&gt;svg]:rotate-180 text-left font-display text-base font-medium text-primary"
+                      data-tsd-source="/src/components/landing/Faq.tsx:55:17"
+                      data-radix-collection-item=""
+                    >
+                      В чём секрет успешного Study Plan / мотивационного письма?<svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-chevron-down h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200"
+                        aria-hidden="true"
+                        data-tsd-source="/src/components/ui/accordion.tsx:31:7"
+                      >
+                        <path d="m6 9 6 6 6-6"></path>
+                      </svg>
+                    </button>
+                  </h3>
+                  <div
+                    data-state="closed"
+                    id="radix-_R_ejpaq_"
+                    hidden=""
+                    role="region"
+                    aria-labelledby="radix-_R_6jpaq_"
+                    data-orientation="vertical"
+                    class="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
+                    data-tsd-source="/src/components/landing/Faq.tsx:58:17"
+                    style="
+                      --radix-accordion-content-height: var(--radix-collapsible-content-height);
+                      --radix-accordion-content-width: var(--radix-collapsible-content-width);
+                    "
+                  ></div>
+                </div>
+                <div
+                  data-state="closed"
+                  data-orientation="vertical"
+                  class="border-b border-border/60"
+                  data-tsd-source="/src/components/landing/Faq.tsx:54:15"
+                >
+                  <h3
+                    data-orientation="vertical"
+                    data-state="closed"
+                    class="flex"
+                    data-tsd-source="/src/components/ui/accordion.tsx:21:3"
+                  >
+                    <button
+                      type="button"
+                      aria-expanded="false"
+                      data-state="closed"
+                      data-orientation="vertical"
+                      id="radix-_R_7jpaq_"
+                      class="flex flex-1 items-center justify-between py-4 cursor-pointer transition-all hover:underline [&amp;[data-state=open]&gt;svg]:rotate-180 text-left font-display text-base font-medium text-primary"
+                      data-tsd-source="/src/components/landing/Faq.tsx:55:17"
+                      data-radix-collection-item=""
+                    >
+                      Что входит в первую консультацию?<svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-chevron-down h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200"
+                        aria-hidden="true"
+                        data-tsd-source="/src/components/ui/accordion.tsx:31:7"
+                      >
+                        <path d="m6 9 6 6 6-6"></path>
+                      </svg>
+                    </button>
+                  </h3>
+                  <div
+                    data-state="closed"
+                    id="radix-_R_fjpaq_"
+                    hidden=""
+                    role="region"
+                    aria-labelledby="radix-_R_7jpaq_"
+                    data-orientation="vertical"
+                    class="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
+                    data-tsd-source="/src/components/landing/Faq.tsx:58:17"
+                    style="
+                      --radix-accordion-content-height: var(--radix-collapsible-content-height);
+                      --radix-accordion-content-width: var(--radix-collapsible-content-width);
+                    "
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          id="contact"
+          class="py-24"
+          data-tsd-source="/src/components/landing/ContactForm.tsx:78:5"
+        >
+          <div
+            class="mx-auto max-w-6xl px-4 sm:px-6"
+            data-tsd-source="/src/components/landing/ContactForm.tsx:79:7"
+          >
+            <div
+              style="transition-delay: 0ms"
+              class="transition-all duration-700 ease-out will-change-transform translate-y-6 opacity-0"
+              data-tsd-source="/src/components/Reveal.tsx:33:5"
+            >
+              <div
+                class="relative overflow-hidden rounded-[2.5rem] bg-navy-gradient p-6 sm:p-10 lg:p-14"
+                data-tsd-source="/src/components/landing/ContactForm.tsx:81:11"
+              >
+                <div
+                  aria-hidden="true"
+                  class="pointer-events-none absolute -top-20 -right-10 size-80 rounded-full bg-gold-gradient opacity-20 blur-3xl"
+                  data-tsd-source="/src/components/landing/ContactForm.tsx:82:13"
+                ></div>
+                <div
+                  class="relative grid gap-10 lg:grid-cols-2 lg:items-center"
+                  data-tsd-source="/src/components/landing/ContactForm.tsx:86:13"
+                >
+                  <div
+                    class="min-w-0"
+                    data-tsd-source="/src/components/landing/ContactForm.tsx:87:15"
+                  >
+                    <p
+                      class="text-xs font-semibold tracking-[0.2em] text-accent uppercase"
+                      data-tsd-source="/src/components/landing/ContactForm.tsx:88:17"
+                    >
+                      Консультация
+                    </p>
+                    <h2
+                      class="mt-4 font-display text-3xl font-semibold text-primary-foreground sm:text-4xl"
+                      data-tsd-source="/src/components/landing/ContactForm.tsx:91:17"
+                    >
+                      Готовы начать путь к зачислению? Запишитесь на первую консультацию
+                    </h2>
+                    <p
+                      class="mt-4 inline-flex items-center gap-2 text-sm text-accent"
+                      data-tsd-source="/src/components/landing/ContactForm.tsx:94:17"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-sparkles size-4"
+                        aria-hidden="true"
+                        data-tsd-source="/src/components/landing/ContactForm.tsx:95:19"
+                      >
+                        <path
+                          d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"
+                        ></path>
+                        <path d="M20 2v4"></path>
+                        <path d="M22 4h-4"></path>
+                        <circle cx="4" cy="20" r="2"></circle>
+                      </svg>
+                      Консультация бесплатная, места ограничены.
+                    </p>
+                    <div
+                      class="mt-8 space-y-3"
+                      data-tsd-source="/src/components/landing/ContactForm.tsx:97:17"
+                    >
+                      <a
+                        href="https://www.instagram.com/riana.china?stkn=MTR5NzMxM293eHBkcg=="
+                        target="_blank"
+                        rel="noreferrer"
+                        class="flex items-center gap-3 rounded-2xl border border-accent/40 bg-accent/15 p-3.5 text-primary-foreground transition-all hover:border-accent hover:bg-accent/25 hover:shadow-[var(--shadow-gold)]"
+                        data-tsd-source="/src/components/landing/ContactForm.tsx:98:19"
+                        ><div
+                          class="grid size-10 shrink-0 place-items-center rounded-xl bg-gold-gradient text-accent-foreground"
+                          data-tsd-source="/src/components/landing/ContactForm.tsx:104:21"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-instagram size-5"
+                            aria-hidden="true"
+                            data-tsd-source="/src/components/landing/ContactForm.tsx:105:23"
+                          >
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                          </svg>
+                        </div>
+                        <div
+                          class="min-w-0"
+                          data-tsd-source="/src/components/landing/ContactForm.tsx:107:21"
+                        >
+                          <span
+                            class="block text-[11px] font-semibold tracking-wider text-accent uppercase"
+                            data-tsd-source="/src/components/landing/ContactForm.tsx:108:23"
+                            >Основной ресурс и связь</span
+                          ><span
+                            class="block truncate text-sm font-semibold"
+                            data-tsd-source="/src/components/landing/ContactForm.tsx:111:23"
+                            >Instagram
+                            <!-- -->@riana.china</span
+                          >
+                        </div></a
+                      ><a
+                        href="https://chat.whatsapp.com/JlCTPrnJOKv8V3lQTFGY5E"
+                        target="_blank"
+                        rel="noreferrer"
+                        class="flex items-center gap-3 rounded-2xl border border-white/20 bg-white/10 p-3.5 text-primary-foreground transition-all hover:border-white/40 hover:bg-white/15"
+                        data-tsd-source="/src/components/landing/ContactForm.tsx:117:19"
+                        ><div
+                          class="grid size-10 shrink-0 place-items-center rounded-xl bg-navy-gradient text-accent"
+                          data-tsd-source="/src/components/landing/ContactForm.tsx:123:21"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-message-circle size-5"
+                            aria-hidden="true"
+                            data-tsd-source="/src/components/landing/ContactForm.tsx:124:23"
+                          >
+                            <path
+                              d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div
+                          class="min-w-0"
+                          data-tsd-source="/src/components/landing/ContactForm.tsx:126:21"
+                        >
+                          <span
+                            class="block text-[11px] font-semibold tracking-wider text-primary-foreground/70 uppercase"
+                            data-tsd-source="/src/components/landing/ContactForm.tsx:127:23"
+                            >Чат по поступлению</span
+                          ><span
+                            class="block truncate text-sm font-semibold"
+                            data-tsd-source="/src/components/landing/ContactForm.tsx:130:23"
+                            >Групповой чат в WhatsApp</span
+                          >
+                        </div></a
+                      >
+                      <div
+                        class="pt-2"
+                        data-tsd-source="/src/components/landing/ContactForm.tsx:136:19"
+                      >
+                        <a
+                          href="https://t.me/fasavatale"
+                          target="_blank"
+                          rel="noreferrer"
+                          class="flex items-center gap-2 text-sm text-primary-foreground/75 transition-colors hover:text-accent"
+                          data-tsd-source="/src/components/landing/ContactForm.tsx:137:21"
+                          ><svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-send size-4 shrink-0"
+                            aria-hidden="true"
+                            data-tsd-source="/src/components/landing/ContactForm.tsx:143:23"
+                          >
+                            <path
+                              d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"
+                            ></path>
+                            <path d="m21.854 2.147-10.94 10.939"></path></svg
+                          ><span data-tsd-source="/src/components/landing/ContactForm.tsx:144:23"
+                            >Telegram:
+                            <!-- -->@fasavatale</span
+                          ></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <form
+                    class="glass rounded-3xl p-6 sm:p-8"
+                    data-tsd-source="/src/components/landing/ContactForm.tsx:150:15"
+                  >
+                    <div
+                      class="grid gap-4"
+                      data-tsd-source="/src/components/landing/ContactForm.tsx:151:17"
+                    >
+                      <div
+                        class="grid gap-1.5"
+                        data-tsd-source="/src/components/landing/ContactForm.tsx:152:19"
+                      >
+                        <label
+                          class="peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-xs font-semibold text-muted-foreground uppercase"
+                          data-tsd-source="/src/components/landing/ContactForm.tsx:153:21"
+                          >Тип обращения</label
+                        >
+                        <div
+                          class="grid grid-cols-3 gap-1.5 rounded-2xl bg-secondary/80 p-1"
+                          data-tsd-source="/src/components/landing/ContactForm.tsx:156:21"
+                        >
+                          <button
+                            type="button"
+                            class="rounded-xl px-2 py-1.5 text-center text-xs font-medium transition-all bg-card text-primary shadow-sm"
+                            data-tsd-source="/src/components/landing/ContactForm.tsx:157:23"
+                          >
+                            Поступление</button
+                          ><button
+                            type="button"
+                            class="rounded-xl px-2 py-1.5 text-center text-xs font-medium transition-all text-muted-foreground hover:text-foreground"
+                            data-tsd-source="/src/components/landing/ContactForm.tsx:168:23"
+                          >
+                            «Дадим шанс»</button
+                          ><button
+                            type="button"
+                            class="rounded-xl px-2 py-1.5 text-center text-xs font-medium transition-all text-muted-foreground hover:text-foreground"
+                            data-tsd-source="/src/components/landing/ContactForm.tsx:179:23"
+                          >
+                            Партнёрство
+                          </button>
+                        </div>
+                      </div>
+                      <div
+                        class="grid gap-2"
+                        data-tsd-source="/src/components/landing/ContactForm.tsx:193:19"
+                      >
+                        <label
+                          class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                          for="name"
+                          data-tsd-source="/src/components/landing/ContactForm.tsx:194:21"
+                          >Имя</label
+                        ><input
+                          class="flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+                          id="name"
+                          maxlength="100"
+                          placeholder="Как к вам обращаться"
+                          data-tsd-source="/src/components/landing/ContactForm.tsx:195:21"
+                          value=""
+                        />
+                      </div>
+                      <div
+                        class="grid gap-2"
+                        data-tsd-source="/src/components/landing/ContactForm.tsx:203:19"
+                      >
+                        <label
+                          class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                          for="email"
+                          data-tsd-source="/src/components/landing/ContactForm.tsx:204:21"
+                          >E-mail</label
+                        ><input
+                          type="email"
+                          class="flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+                          id="email"
+                          maxlength="255"
+                          placeholder="you@email.com"
+                          data-tsd-source="/src/components/landing/ContactForm.tsx:205:21"
+                          value=""
+                        />
+                      </div>
+                      <div
+                        class="grid gap-2"
+                        data-tsd-source="/src/components/landing/ContactForm.tsx:214:19"
+                      >
+                        <label
+                          class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                          for="contact"
+                          data-tsd-source="/src/components/landing/ContactForm.tsx:215:21"
+                          >Телефон / Telegram</label
+                        ><input
+                          class="flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+                          id="contact"
+                          maxlength="100"
+                          placeholder="@username или +7..."
+                          data-tsd-source="/src/components/landing/ContactForm.tsx:216:21"
+                          value=""
+                        />
+                      </div>
+                      <div
+                        class="grid gap-2"
+                        data-tsd-source="/src/components/landing/ContactForm.tsx:224:19"
+                      >
+                        <label
+                          class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                          for="goal"
+                          data-tsd-source="/src/components/landing/ContactForm.tsx:225:21"
+                          >Краткий вопрос или цель</label
+                        ><textarea
+                          class="flex min-h-[60px] w-full rounded-md border border-input bg-transparent px-3 py-2 text-base shadow-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+                          id="goal"
+                          maxlength="1000"
+                          rows="3"
+                          placeholder="Например: хочу поступить на бакалавриат в Китай в 2027"
+                          data-tsd-source="/src/components/landing/ContactForm.tsx:226:21"
+                        ></textarea>
+                      </div>
+                      <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap cursor-pointer focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-gold-gradient text-accent-foreground font-semibold shadow-[var(--shadow-gold)] transition-all hover:brightness-105 hover:-translate-y-0.5 h-13 rounded-full px-8 text-base mt-2 w-full"
+                        type="submit"
+                        data-tsd-source="/src/components/landing/ContactForm.tsx:235:19"
+                      >
+                        Отправить заявку
+                      </button>
+                      <p
+                        class="text-center text-xs text-muted-foreground"
+                        data-tsd-source="/src/components/landing/ContactForm.tsx:244:19"
+                      >
+                        Основная связь — в<!-- -->
+                        <a
+                          href="https://www.instagram.com/riana.china?stkn=MTR5NzMxM293eHBkcg=="
+                          target="_blank"
+                          rel="noreferrer"
+                          class="font-semibold text-accent underline underline-offset-4"
+                          data-tsd-source="/src/components/landing/ContactForm.tsx:246:21"
+                          >Instagram
+                          <!-- -->@riana.china</a
+                        >
+                        <!-- -->· или в<!-- -->
+                        <a
+                          href="https://chat.whatsapp.com/JlCTPrnJOKv8V3lQTFGY5E"
+                          target="_blank"
+                          rel="noreferrer"
+                          class="font-medium text-primary underline underline-offset-4"
+                          data-tsd-source="/src/components/landing/ContactForm.tsx:255:21"
+                          >групповом чате WhatsApp</a
+                        >
+                      </p>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer
+        class="bg-navy-gradient py-14 text-primary-foreground"
+        data-tsd-source="/src/components/landing/Footer.tsx:6:5"
+      >
+        <div
+          class="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 md:grid-cols-3"
+          data-tsd-source="/src/components/landing/Footer.tsx:7:7"
+        >
+          <div class="min-w-0" data-tsd-source="/src/components/landing/Footer.tsx:8:9">
+            <div
+              class="flex items-center gap-3"
+              data-tsd-source="/src/components/landing/Footer.tsx:9:11"
+            >
+              <img
+                src="/__l5e/assets-v1/7169e740-8756-4277-8c37-daa286216e45/IMG_20260902_190725_482.jpg"
+                alt="Риана — основатель Riana Admissions"
+                loading="lazy"
+                class="size-12 shrink-0 rounded-full object-cover ring-2 ring-accent/50"
+                data-tsd-source="/src/components/landing/Footer.tsx:10:13"
+              />
+              <div class="min-w-0" data-tsd-source="/src/components/landing/Footer.tsx:16:13">
+                <span
+                  class="block font-display text-lg font-semibold"
+                  data-tsd-source="/src/components/landing/Footer.tsx:17:15"
+                  >Riana Admissions</span
+                ><span
+                  class="block text-xs text-primary-foreground/65"
+                  data-tsd-source="/src/components/landing/Footer.tsx:18:15"
+                  >Риана — основатель Riana Admissions и проекта «Дадим шанс»</span
+                >
+              </div>
+            </div>
+            <p
+              class="mt-4 max-w-xs text-sm text-primary-foreground/65"
+              data-tsd-source="/src/components/landing/Footer.tsx:23:11"
+            >
+              Консультации по поступлению в университеты Китая и благотворительная помощь
+              талантливым абитуриентам.
+            </p>
+            <div
+              class="mt-4 flex flex-wrap gap-2 text-xs text-primary-foreground/80"
+              data-tsd-source="/src/components/landing/Footer.tsx:27:11"
+            >
+              <a
+                href="#charity"
+                class="underline underline-offset-4 hover:text-accent"
+                data-tsd-source="/src/components/landing/Footer.tsx:28:13"
+                >Проект «Дадим шанс»</a
+              ><span data-tsd-source="/src/components/landing/Footer.tsx:31:13">•</span
+              ><a
+                href="#services"
+                class="underline underline-offset-4 hover:text-accent"
+                data-tsd-source="/src/components/landing/Footer.tsx:32:13"
+                >Программы</a
+              ><span data-tsd-source="/src/components/landing/Footer.tsx:35:13">•</span
+              ><a
+                href="#contact"
+                class="underline underline-offset-4 hover:text-accent"
+                data-tsd-source="/src/components/landing/Footer.tsx:36:13"
+                >Заявка</a
+              >
+            </div>
+          </div>
+          <div class="min-w-0" data-tsd-source="/src/components/landing/Footer.tsx:42:9">
+            <p
+              class="font-display text-sm font-semibold"
+              data-tsd-source="/src/components/landing/Footer.tsx:43:11"
+            >
+              Контакты
+            </p>
+            <a
+              href="https://www.instagram.com/riana.china?stkn=MTR5NzMxM293eHBkcg=="
+              target="_blank"
+              rel="noreferrer"
+              class="mt-3 flex items-center gap-2 text-sm text-accent transition-colors hover:text-white"
+              data-tsd-source="/src/components/landing/Footer.tsx:44:11"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-instagram size-4 shrink-0"
+                aria-hidden="true"
+                data-tsd-source="/src/components/landing/Footer.tsx:50:13"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg
+              ><span class="truncate" data-tsd-source="/src/components/landing/Footer.tsx:51:13"
+                >Instagram:
+                <!-- -->@riana.china<!-- -->
+                (основная связь)</span
+              ></a
+            ><a
+              href="https://chat.whatsapp.com/JlCTPrnJOKv8V3lQTFGY5E"
+              target="_blank"
+              rel="noreferrer"
+              class="mt-2 flex items-center gap-2 text-sm text-primary-foreground/85 transition-colors hover:text-accent"
+              data-tsd-source="/src/components/landing/Footer.tsx:53:11"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-message-circle size-4 shrink-0 text-accent"
+                aria-hidden="true"
+                data-tsd-source="/src/components/landing/Footer.tsx:59:13"
+              >
+                <path
+                  d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"
+                ></path></svg
+              ><span class="truncate" data-tsd-source="/src/components/landing/Footer.tsx:60:13"
+                >Групповой чат поступления в WhatsApp</span
+              ></a
+            ><a
+              href="https://t.me/fasavatale"
+              target="_blank"
+              rel="noreferrer"
+              class="mt-2 flex items-center gap-2 text-sm text-primary-foreground/75 transition-colors hover:text-accent"
+              data-tsd-source="/src/components/landing/Footer.tsx:62:11"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-send size-4 shrink-0"
+                aria-hidden="true"
+                data-tsd-source="/src/components/landing/Footer.tsx:68:13"
+              >
+                <path
+                  d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"
+                ></path>
+                <path d="m21.854 2.147-10.94 10.939"></path></svg
+              ><span class="truncate" data-tsd-source="/src/components/landing/Footer.tsx:69:13"
+                >Telegram:
+                <!-- -->@fasavatale</span
+              ></a
+            >
+          </div>
+          <div class="min-w-0" data-tsd-source="/src/components/landing/Footer.tsx:73:9">
+            <p
+              class="font-display text-sm font-semibold"
+              data-tsd-source="/src/components/landing/Footer.tsx:74:11"
+            >
+              Связь и сообщество
+            </p>
+            <p
+              class="mt-2 text-xs text-primary-foreground/70"
+              data-tsd-source="/src/components/landing/Footer.tsx:75:11"
+            >
+              Основной блог, отзывы и оперативная связь ведутся в Instagram. Вступайте также в
+              групповой чат WhatsApp по поступлению в Китай.
+            </p>
+            <div class="mt-4 flex gap-3" data-tsd-source="/src/components/landing/Footer.tsx:79:11">
+              <a
+                href="https://www.instagram.com/riana.china?stkn=MTR5NzMxM293eHBkcg=="
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Instagram (Основной ресурс)"
+                title="Instagram (Основной ресурс)"
+                class="grid size-10 place-items-center rounded-full border transition-all hover:-translate-y-0.5 border-accent/60 bg-accent/20 text-accent hover:border-accent hover:bg-accent hover:text-accent-foreground"
+                data-tsd-source="/src/components/landing/Footer.tsx:95:15"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-instagram size-4"
+                  aria-hidden="true"
+                  data-tsd-source="/src/components/landing/Footer.tsx:108:17"
+                >
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg></a
+              ><a
+                href="https://chat.whatsapp.com/JlCTPrnJOKv8V3lQTFGY5E"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="WhatsApp группа"
+                title="WhatsApp группа"
+                class="grid size-10 place-items-center rounded-full border transition-all hover:-translate-y-0.5 border-accent/60 bg-accent/20 text-accent hover:border-accent hover:bg-accent hover:text-accent-foreground"
+                data-tsd-source="/src/components/landing/Footer.tsx:95:15"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-message-circle size-4"
+                  aria-hidden="true"
+                  data-tsd-source="/src/components/landing/Footer.tsx:108:17"
+                >
+                  <path
+                    d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"
+                  ></path></svg></a
+              ><a
+                href="https://t.me/fasavatale"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Telegram"
+                title="Telegram"
+                class="grid size-10 place-items-center rounded-full border transition-all hover:-translate-y-0.5 border-white/20 bg-white/5 text-primary-foreground hover:border-accent/50 hover:text-accent"
+                data-tsd-source="/src/components/landing/Footer.tsx:95:15"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-send size-4"
+                  aria-hidden="true"
+                  data-tsd-source="/src/components/landing/Footer.tsx:108:17"
+                >
+                  <path
+                    d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"
+                  ></path>
+                  <path d="m21.854 2.147-10.94 10.939"></path></svg
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mx-auto mt-12 max-w-7xl border-t border-white/10 px-4 pt-6 sm:px-6"
+          data-tsd-source="/src/components/landing/Footer.tsx:115:7"
+        >
+          <p
+            class="text-xs text-primary-foreground/55"
+            data-tsd-source="/src/components/landing/Footer.tsx:116:9"
+          >
+            ©
+            <!-- -->2026<!-- -->
+            Riana Admissions. All rights reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script>
+      (function (a, f) {
+        let l;
+        try {
+          l = JSON.parse(sessionStorage.getItem(a) || "{}");
+        } catch {
+          return;
+        }
+        const n = l?.[f || history.state?.__TSR_key];
+        let c = !1;
+        for (const t in n) {
+          const e = n[t],
+            o = e?.scrollX,
+            s = e?.scrollY;
+          if (Number.isFinite(o) && Number.isFinite(s)) {
+            if (t === "window") (scrollTo(o, s), (c = !0));
+            else if (t)
+              try {
+                const r = document.querySelector(t);
+                r && ((r.scrollLeft = o), (r.scrollTop = s));
+              } catch {}
+          }
+        }
+        if (c) return;
+        const i = location.hash.slice(1);
+        if (i) {
+          const t = history.state?.__hashScrollIntoViewOptions ?? !0;
+          if (t) {
+            const e = document.getElementById(i);
+            e && e.scrollIntoView(t);
+          }
+          return;
+        }
+        scrollTo(0, 0);
+      })("tsr-scroll-restoration-v1_3");
+      document.currentScript.remove();
+    </script>
+    <!--/$-->
+    <section
+      aria-label="Notifications alt+T"
+      tabindex="-1"
+      aria-live="polite"
+      aria-relevant="additions text"
+      aria-atomic="false"
+      data-react-aria-top-layer="true"
+    ></section>
+    <script class="$tsr" id="$tsr-stream-barrier">
+      (self.$R = self.$R || {})["tsr"] = [];
+      self.$_TSR = {
+        h() {
+          ((this.hydrated = !0), this.c());
+        },
+        e() {
+          ((this.streamEnded = !0), this.c());
+        },
+        c() {
+          this.hydrated && this.streamEnded && (delete self.$_TSR, delete self.$R.tsr);
+        },
+        p(e) {
+          this.initialized ? e() : this.buffer.push(e);
+        },
+        buffer: [],
+      };
+      $_TSR.router = (($R) =>
+        ($R[0] = {
+          manifest: ($R[1] = {
+            routes: ($R[2] = {
+              __root__: ($R[3] = {
+                preloads: ($R[4] = ["/@id/virtual:tanstack-start-dev-client-entry"]),
+                scripts: ($R[5] = [
+                  ($R[6] = {
+                    attrs: ($R[7] = {
+                      type: "module",
+                      async: !0,
+                      src: "/@id/virtual:tanstack-start-dev-client-entry",
+                    }),
+                  }),
+                ]),
+                css: ($R[8] = [
+                  ($R[9] = {
+                    href: "/@tanstack-start/styles.css?routes=__root__%2C%2F",
+                    "data-tanstack-router-dev-styles": !0,
+                  }),
+                ]),
+              }),
+            }),
+          }),
+          matches: ($R[10] = [
+            ($R[11] = { i: "__root__ ", u: 1790075574674, s: "success", ssr: !0 }),
+            ($R[12] = { i: "  ", u: 1790075574674, s: "success", ssr: !0 }),
+          ]),
+          lastMatchId: "  ",
+        }))($R["tsr"]);
+      $_TSR.e();
+      document.currentScript.remove();
+    </script>
+    <script type="module" async="" src="/@id/virtual:tanstack-start-dev-client-entry"></script>
+  </body>
+</html>
