@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Header } from "@/components/landing/Header";
 import { Hero } from "@/components/landing/Hero";
 import { About } from "@/components/landing/About";
+import { Charity } from "@/components/landing/Charity";
 import { Services } from "@/components/landing/Services";
 import { Results } from "@/components/landing/Results";
 import { Gallery } from "@/components/landing/Gallery";
@@ -10,9 +11,9 @@ import { Faq } from "@/components/landing/Faq";
 import { ContactForm } from "@/components/landing/ContactForm";
 import { Footer } from "@/components/landing/Footer";
 
-const title = "Riana Admissions — консультации по поступлению в вузы Китая, США и UK";
+const title = "Riana Admissions — поступление в вузы Китая и благотворительный проект «Дадим шанс»";
 const description =
-  "Индивидуальное сопровождение поступления: стратегия, эссе, документы и гранты. 100+ студентов, $3.5M стипендий, 7 лет опыта.";
+  "Индивидуальное сопровождение поступления в университеты Китая и благотворительный проект «Дадим шанс» для талантливой молодёжи. Гранты, стипендии, менторство.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -26,7 +27,7 @@ export const Route = createFileRoute("/")({
       {
         name: "keywords",
         content:
-          "Riana Admissions, консультации по поступлению, эссе в США, обучение за границей, поступление в вузы Китая",
+          "Riana Admissions, Дадим шанс, благотворительный проект, гранты в Китай, обучение в Китае, стипендии CSC, SCUT, поступление в вузы Китая",
       },
     ],
   }),
@@ -40,9 +41,10 @@ function Index() {
       <main>
         <Hero />
         <About />
+        <Charity />
         <Services />
         <Results />
-        <Gallery />
+        {/* <Gallery /> — секция «Знакомство» временно скрыта по запросу */}
         <Testimonials />
         <Faq />
         <ContactForm />

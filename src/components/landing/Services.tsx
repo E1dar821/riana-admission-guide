@@ -5,18 +5,18 @@ import { Reveal } from "@/components/Reveal";
 const services = [
   {
     icon: Compass,
-    title: "Стратегическое планирование",
-    text: "Выбор вузов, анализ профиля, создание дорожной карты поступления.",
+    title: "Стратегия и выбор вузов Китая",
+    text: "Подбор целевых университетов (включая SCUT, вузы Project 985/211), оценка шансов на государственные стипендии и составление дорожной карты.",
   },
   {
     icon: PenLine,
-    title: "Сопровождение документов",
-    text: "Работа над эссе, мотивационными письмами, рекомендациями, CV.",
+    title: "Документы и Study Plan",
+    text: "Написание сильного академического Study Plan, мотивационных писем, подготовка рекомендаций и правильное оформление для приёмных комиссий Китая.",
   },
   {
     icon: Handshake,
-    title: "Полное сопровождение",
-    text: "От А до Я: от выбора вуза до зачисления и визовой поддержки.",
+    title: "Полное сопровождение «под ключ»",
+    text: "От первой анкеты до приказа о зачислении, получение визовых форм JW201/JW202, оформление студенческой визы и встреча в Китае.",
   },
 ];
 
@@ -27,7 +27,7 @@ export function Services() {
         <Reveal className="mx-auto max-w-2xl text-center">
           <p className="text-xs font-semibold tracking-[0.2em] text-accent uppercase">Услуги</p>
           <h2 className="mt-4 font-display text-3xl font-semibold text-primary sm:text-4xl">
-            Как мы работаем: программы сопровождения
+            Программы сопровождения поступления в Китай
           </h2>
         </Reveal>
 
@@ -39,7 +39,9 @@ export function Services() {
                   <s.icon className="size-5" />
                 </span>
                 <h3 className="mt-6 font-display text-xl font-semibold text-primary">{s.title}</h3>
-                <p className="mt-3 flex-1 text-sm leading-relaxed text-muted-foreground">{s.text}</p>
+                <p className="mt-3 flex-1 text-sm leading-relaxed text-muted-foreground">
+                  {s.text}
+                </p>
                 <Button asChild variant="outlineNavy" size="pill" className="mt-6 self-start">
                   <a href="#contact">Детальнее</a>
                 </Button>

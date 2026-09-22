@@ -25,10 +25,12 @@ export const rianaGallery = [
 ];
 
 export const CONTACT = {
-  telegram: "https://t.me/riana_admissions",
-  whatsapp: "https://wa.me/8613800000000",
+  instagram: "https://www.instagram.com/riana.china?stkn=MTR5NzMxM293eHBkcg==",
+  instagramHandle: "@riana.china",
+  whatsappGroup: "https://chat.whatsapp.com/JlCTPrnJOKv8V3lQTFGY5E",
+  telegram: "https://t.me/fasavatale",
+  telegramHandle: "@fasavatale",
+  whatsapp: "https://chat.whatsapp.com/JlCTPrnJOKv8V3lQTFGY5E",
   email: "hello@riana-admissions.com",
   phone: "+86 138 0000 0000",
-  instagram: "https://instagram.com/riana.admissions",
-  linkedin: "https://linkedin.com/in/riana-admissions",
 };

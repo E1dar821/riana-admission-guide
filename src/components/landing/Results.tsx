@@ -1,10 +1,18 @@
 import { Reveal } from "@/components/Reveal";
 
 const tiles = [
-  { value: "20+", title: "Принято в топ-20 вузов США", note: "Stanford, Cornell, Duke, NYU" },
-  { value: "$3.5M", title: "Стипендий и грантов", note: "получили студенты за 7 лет" },
-  { value: "Tsinghua", title: "Business Analytics", note: "полная стипендия CSC" },
-  { value: "UCL", title: "Economics & Policy", note: "оффер с частичным грантом" },
+  { value: "35+", title: "Студентов отправлено", note: "успешно учатся в Китае" },
+  { value: "15+", title: "Студентов с грантами", note: "полные и частичные стипендии" },
+  {
+    value: "SCUT",
+    title: "Южно-Китайский технологический",
+    note: "топовый вуз Китая (Project 985/211)",
+  },
+  {
+    value: "1+ год",
+    title: "Практического опыта",
+    note: "личное кураторство каждого студента",
+  },
 ];
 
 export function Results() {

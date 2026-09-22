@@ -1,0 +1,6 @@
+{
+  "name": "Riana Admissions",
+  "description": "Consulting and admission guide landing page for Riana Admissions covering university admissions in China and the charity project 'Дадим шанс' (Give a Chance).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

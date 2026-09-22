@@ -1,11 +1,12 @@
-import { Play, CheckCircle2 } from "lucide-react";
+import { CheckCircle2, Instagram, MessageCircle } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
 import { photos, CONTACT } from "@/lib/photos";
 
 const points = [
+  "Эксперт по китайским государственным грантам (CSC, гранты мэра и провинций)",
   "Персональная стратегия под профиль каждого студента",
-  "Знание всех подводных камней подачи и дедлайнов",
-  "Эссе и мотивационные письма, которые запоминают",
+  "Основатель благотворительного проекта «Дадим шанс» для талантливой молодёжи",
+  "Эссе, CV и Study Plan, которые выделяют вас среди тысяч кандидатов",
 ];
 
 export function About() {
@@ -15,17 +16,18 @@ export function About() {
         <Reveal className="order-2 min-w-0 lg:order-1">
           <p className="text-xs font-semibold tracking-[0.2em] text-accent uppercase">Обо мне</p>
           <h2 className="mt-4 font-display text-3xl font-semibold text-primary sm:text-4xl">
-            Риана: ваш персональный проводник в мир высшего образования
+            Риана: ваш персональный проводник в университеты Китая
           </h2>
           <p className="mt-6 leading-relaxed text-muted-foreground">
-            Семь лет я помогаю студентам поступать в ведущие университеты Китая, США и
-            Великобритании. За это время более 100 студентов получили офферы, а суммарный объём
-            стипендий и грантов превысил 3.5 млн долларов.
+            Больше года я профессионально помогаю студентам поступать в ведущие университеты Китая.
+            За это время уже более 35 студентов успешно отправились на учёбу в Китай, из которых 15+
+            ребят получили гранты и стипендии, включая оффер в Южно-Китайский технологический
+            университет (SCUT) — один из топовых вузов страны.
           </p>
           <p className="mt-4 leading-relaxed text-muted-foreground">
-            Я работаю точечно и лично: разбираю профиль, выстраиваю стратегию, довожу каждое эссе до
-            состояния, в котором оно звучит вашим голосом — и при этом попадает в критерии приёмной
-            комиссии.
+            Я работаю точечно и лично: разбираю профиль, выстраиваю стратегию подачи, довожу каждый
+            Study Plan и рекомендательные письма до идеала, чтобы вы гарантированно выделились среди
+            кандидатов.
           </p>
 
           <ul className="mt-8 space-y-3">
@@ -37,37 +39,61 @@ export function About() {
             ))}
           </ul>
 
-          <a
-            href={CONTACT.telegram}
-            target="_blank"
-            rel="noreferrer"
-            className="group mt-8 inline-flex items-center gap-3 rounded-full border border-primary/15 bg-card py-2 pr-6 pl-2 transition-all hover:-translate-y-0.5 hover:shadow-[var(--shadow-elegant)]"
-          >
-            <span className="grid size-10 place-items-center rounded-full bg-gold-gradient text-accent-foreground transition-transform group-hover:scale-105">
-              <Play className="size-4 fill-current" />
-            </span>
-            <span className="text-sm font-medium text-primary">Видео-знакомство с Рианой</span>
-          </a>
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+            <a
+              href={CONTACT.instagram}
+              target="_blank"
+              rel="noreferrer"
+              className="group inline-flex items-center gap-3 rounded-full border border-accent/40 bg-accent/10 py-2 pr-6 pl-2.5 transition-all hover:-translate-y-0.5 hover:border-accent hover:shadow-[var(--shadow-gold)]"
+            >
+              <span className="grid size-10 place-items-center rounded-full bg-gold-gradient text-accent-foreground transition-transform group-hover:scale-105">
+                <Instagram className="size-5" />
+              </span>
+              <div className="text-left">
+                <span className="block text-[11px] font-semibold text-accent uppercase">
+                  Основной ресурс и связь
+                </span>
+                <span className="block text-sm font-semibold text-primary">
+                  Instagram {CONTACT.instagramHandle}
+                </span>
+              </div>
+            </a>
+
+            <a
+              href={CONTACT.whatsappGroup}
+              target="_blank"
+              rel="noreferrer"
+              className="group inline-flex items-center gap-3 rounded-full border border-primary/15 bg-card py-2 pr-6 pl-2.5 transition-all hover:-translate-y-0.5 hover:shadow-[var(--shadow-elegant)]"
+            >
+              <span className="grid size-10 place-items-center rounded-full bg-navy-gradient text-accent transition-transform group-hover:scale-105">
+                <MessageCircle className="size-5" />
+              </span>
+              <div className="text-left">
+                <span className="block text-[11px] text-muted-foreground">Групповой чат</span>
+                <span className="block text-sm font-semibold text-primary">Чат в WhatsApp</span>
+              </div>
+            </a>
+          </div>
         </Reveal>
 
         <Reveal delay={120} className="order-1 min-w-0 lg:order-2">
           <div className="relative mx-auto max-w-md lg:max-w-none">
             <img
               src={photos.aboutMain}
-              alt="Риана — основатель Riana Admissions, на набережной ночного города"
+              alt="Обучение и жизнь в Китае"
               loading="lazy"
               className="aspect-4/5 w-full rounded-[2rem] object-cover shadow-[var(--shadow-elegant)]"
             />
-            <div className="glass absolute -bottom-8 -left-4 hidden w-40 rounded-2xl p-1.5 sm:block lg:-left-10 lg:w-52">
-              <img
-                src={photos.aboutSecondary}
-                alt="Риана — основатель Riana Admissions"
-                loading="lazy"
-                className="w-full rounded-xl object-cover"
-              />
-              <p className="px-2 py-1.5 text-center text-[11px] font-medium text-primary">
-                Риана, основатель
-              </p>
+            <div className="glass absolute -bottom-6 -left-4 hidden rounded-2xl px-4 py-3 sm:block lg:-left-6 shadow-[var(--shadow-elegant)]">
+              <div className="flex items-center gap-3">
+                <div className="grid size-9 place-items-center rounded-xl bg-gold-gradient text-accent-foreground font-semibold text-xs">
+                  SCUT
+                </div>
+                <div>
+                  <p className="text-xs font-semibold text-primary">Поступление в вузы Китая</p>
+                  <p className="text-[11px] text-muted-foreground">15+ грантов · 35+ студентов</p>
+                </div>
+              </div>
             </div>
           </div>
         </Reveal>
