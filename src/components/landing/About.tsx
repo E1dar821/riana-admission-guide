@@ -1,6 +1,7 @@
 import { CheckCircle2, Instagram, MessageCircle } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
 import { photos, CONTACT } from "@/lib/photos";
+import { DriveImage } from "@/components/DriveImage";
 
 const points = [
   "Эксперт по китайским государственным грантам (CSC, гранты мэра и провинций)",
@@ -78,7 +79,7 @@ export function About() {
 
         <Reveal delay={120} className="order-1 min-w-0 lg:order-2">
           <div className="relative mx-auto max-w-md lg:max-w-none">
-            <img
+            <DriveImage
               src={photos.aboutMain}
               alt="Обучение и жизнь в Китае"
               loading="lazy"

@@ -13,6 +13,7 @@ import {
 import { Reveal } from "@/components/Reveal";
 import { Button } from "@/components/ui/button";
 import { CONTACT, photos } from "@/lib/photos";
+import { DriveImage } from "@/components/DriveImage";
 
 const directions = [
   {
@@ -102,7 +103,7 @@ export function Charity() {
           <div className="glass rounded-[2rem] p-6 sm:p-10 lg:p-12">
             <div className="grid gap-8 lg:grid-cols-[auto_1fr] lg:items-center">
               <div className="relative mx-auto size-32 shrink-0 sm:size-40">
-                <img
+                <DriveImage
                   src={photos.rooftop}
                   alt="Риана — основатель благотворительного проекта «Дадим шанс»"
                   loading="lazy"

@@ -9,7 +9,8 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/Reveal";
-import { CONTACT } from "@/lib/photos";
+import { DriveImage } from "@/components/DriveImage";
+import { CONTACT, photos } from "@/lib/photos";
 
 const stats = [
   { icon: Users, value: "35+", label: "студентов отправлено" },
@@ -83,13 +84,20 @@ export function Hero() {
             />
             <div className="glass-dark relative overflow-hidden rounded-[2rem] border border-white/20 p-6 sm:p-8">
               <div className="flex items-center justify-between border-b border-white/10 pb-5">
-                <div>
-                  <span className="text-[11px] font-semibold tracking-wider text-accent uppercase">
-                    Набор 2026 / 2027
-                  </span>
-                  <h3 className="mt-1 font-display text-xl font-semibold text-primary-foreground sm:text-2xl">
-                    Университеты Китая
-                  </h3>
+                <div className="flex items-center gap-3">
+                  <DriveImage
+                    src={photos.hero}
+                    alt="Риана — основатель Riana Admissions"
+                    className="size-13 sm:size-14 rounded-2xl object-cover ring-2 ring-accent/60 shadow-md shrink-0"
+                  />
+                  <div>
+                    <span className="text-[11px] font-semibold tracking-wider text-accent uppercase">
+                      Набор 2026 / 2027
+                    </span>
+                    <h3 className="mt-0.5 font-display text-lg font-semibold text-primary-foreground sm:text-xl">
+                      Университеты Китая
+                    </h3>
+                  </div>
                 </div>
                 <span className="rounded-full border border-accent/40 bg-accent/15 px-3 py-1 text-xs font-medium text-accent">
                   Project 985 / 211

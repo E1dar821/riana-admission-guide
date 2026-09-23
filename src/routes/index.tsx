@@ -44,7 +44,7 @@ function Index() {
         <Charity />
         <Services />
         <Results />
-        {/* <Gallery /> — секция «Знакомство» временно скрыта по запросу */}
+        <Gallery />
         <Testimonials />
         <Faq />
         <ContactForm />

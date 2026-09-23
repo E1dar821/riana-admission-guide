@@ -7,11 +7,19 @@ async function main() {
 
   const distDir = path.resolve("dist");
   const outputPublicDir = path.resolve(".output/public");
+  const publicDir = path.resolve("public");
 
   fs.mkdirSync(distDir, { recursive: true });
 
   if (fs.existsSync(outputPublicDir)) {
     fs.cpSync(outputPublicDir, distDir, { recursive: true });
+  }
+
+  if (fs.existsSync(publicDir)) {
+    fs.cpSync(publicDir, distDir, { recursive: true });
+    if (fs.existsSync(outputPublicDir)) {
+      fs.cpSync(publicDir, outputPublicDir, { recursive: true });
+    }
   }
 
   let htmlContent = "";
@@ -68,6 +76,8 @@ async function main() {
     htmlContent = htmlContent
       .replaceAll('href="/assets/', `href="${basePath}assets/`)
       .replaceAll('src="/assets/', `src="${basePath}assets/`)
+      .replaceAll('href="/photos/', `href="${basePath}photos/`)
+      .replaceAll('src="/photos/', `src="${basePath}photos/`)
       .replaceAll('href="/@', `href="${basePath}@`)
       .replaceAll('src="/@', `src="${basePath}@`);
   }

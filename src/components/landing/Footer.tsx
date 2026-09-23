@@ -1,5 +1,6 @@
 import { Mail, Phone, Instagram, Send, MessageCircle } from "lucide-react";
 import { CONTACT, photos } from "@/lib/photos";
+import { DriveImage } from "@/components/DriveImage";
 
 export function Footer() {
   return (
@@ -7,7 +8,7 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 md:grid-cols-3">
         <div className="min-w-0">
           <div className="flex items-center gap-3">
-            <img
+            <DriveImage
               src={photos.hero}
               alt="Риана — основатель Riana Admissions"
               loading="lazy"

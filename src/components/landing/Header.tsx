@@ -9,7 +9,7 @@ const links = [
   { href: "#charity", label: "«Дадим шанс»" },
   { href: "#services", label: "Услуги" },
   { href: "#results", label: "Результаты" },
-  // { href: "#gallery", label: "Знакомство" }, // Скрыто по запросу, не удалять из кода
+  { href: "#gallery", label: "Знакомство" },
   { href: "#testimonials", label: "Отзывы" },
   { href: "#faq", label: "FAQ" },
 ];

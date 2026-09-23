@@ -1,5 +1,6 @@
 import { Reveal } from "@/components/Reveal";
 import { rianaGallery } from "@/lib/photos";
+import { DriveImage } from "@/components/DriveImage";
 
 export function Gallery() {
   return (
@@ -19,7 +20,7 @@ export function Gallery() {
           {rianaGallery.map((p, i) => (
             <Reveal key={p.src} delay={i * 80}>
               <figure className="group relative overflow-hidden rounded-3xl shadow-[var(--shadow-elegant)]">
-                <img
+                <DriveImage
                   src={p.src}
                   alt={p.caption}
                   loading="lazy"
